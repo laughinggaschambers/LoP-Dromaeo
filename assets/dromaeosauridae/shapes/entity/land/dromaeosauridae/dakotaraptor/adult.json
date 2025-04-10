@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/LegL,Root/ArmR,Root/Main/Torso/Neck/Feathers9,Root/Torso/Neck/Head/Eye Slot/Top Jaw/Upper Lip,Root/Main/Torso/Neck/Feathers3,Root/Main/Torso/Feathers2,Root/Main/Torso/Neck/Head/Feathers9,Root/Main/Body/Feathers16,Root/Main/Body/Feathers17,Root/Main/Body/Feathers18,Root/LegR,Root/ArmL3/Claw1,Root/Main/Torso/Feathers6,Root/Body,Root/Main/Torso/Feathers12,Root/Main/Body Back/Tail/Tail2/Tail3/Feathers25,Root/Torso,Root/Upper Lip,Root/Main/Body Back/Feathers20,Root/Main/Body Back/Tail/Tail2/Tail3/Tail4/Feathers25,Root/Main/Body Back/Feathers22,Root/Main/Body Back/Feathers21,Root/LegL3,Root/LegL/LegL2/ChinL/Toe,Root/Main/Body/Feathers21,Root/LegL/LegL2/ChinL/Toe3,Root/Body Back,Root/LegL/LegL2/ChinL/Toe5,Root/Tail,Root/Body Back/LegR/LegR2/ChinR/Toe13,Root/Torso/Neck/Head/Lower Jaw,Root/Tail5,Root/Lower Jaw,Root/ArmL2/ArmL4,Root/Body Back/LegR/LegR2/ChinR/FootR/Toe13,Root/Tail2,Root/Tail3,Root/Tail4,Root/Head,Root/Neck,Root/Head/Lower Jaw/Lower Jaw2,Root/ChinL,Root/Main/Torso/Neck/Head/Eye Slot/Teeth9,Root/Main/Torso/Neck/Head/Eye Slot/Teeth7,Root/Main/Torso/Neck/Head/Eye Slot/Teeth5,Root/Main/Torso/Neck/Head/Eye Slot/Teeth3,Root/ArmL2,Root/ArmL3,Root/ArmL,Root/Top Jaw,Root/LegL3/LegL4/ChinL3/FootL2/Toe9,Root/Eye Slot,Root/Main/Torso/Neck/Head/Eye Slot/Teeth11,Root/LegL3/LegL4/ChinL3/FootL2/Toe7",
+		"collapsedPaths": ",Root/LegL,Root/ArmR,Root/Main/Torso/Neck/Feathers9,Root/Torso/Neck/Head/Eye Slot/Top Jaw/Upper Lip,Root/Main/Torso/Neck/Feathers3,Root/Main/Torso/Feathers2,Root/Main/Body/Feathers16,Root/Main/Body/Feathers17,Root/Main/Body/Feathers18,Root/LegR,Root/ArmL3/Claw1,Root/Main/Torso/Feathers6,Root/Body,Root/Main/Torso/Feathers12,Root/Main/Body Back/Tail/Tail2/Tail3/Feathers25,Root/Torso,Root/Upper Lip,Root/Main/Body Back/Feathers20,Root/Main/Body Back/Tail/Tail2/Tail3/Tail4/Feathers25,Root/Main/Body Back/Feathers22,Root/Main/Body Back/Feathers21,Root/LegL3,Root/LegL/LegL2/ChinL/Toe,Root/Main/Body/Feathers21,Root/LegL/LegL2/ChinL/Toe3,Root/Body Back,Root/LegL/LegL2/ChinL/Toe5,Root/Tail,Root/Body Back/LegR/LegR2/ChinR/Toe13,Root/Torso/Neck/Head/Lower Jaw,Root/Tail5,Root/Lower Jaw,Root/ArmL2/ArmL4,Root/Body Back/LegR/LegR2/ChinR/FootR/Toe13,Root/Tail2,Root/Tail3,Root/Tail4,Root/Head,Root/Neck,Root/Head/Lower Jaw/Lower Jaw2,Root/ChinL,Root/Main/Torso/Neck/Head/Eye Slot/Teeth9,Root/Main/Torso/Neck/Head/Eye Slot/Teeth7,Root/Main/Torso/Neck/Head/Eye Slot/Teeth5,Root/Main/Torso/Neck/Head/Eye Slot/Teeth3,Root/ArmL2,Root/ArmL3,Root/ArmL,Root/Top Jaw,Root/LegL3/LegL4/ChinL3/FootL2/Toe9,Root/Eye Slot,Root/Main/Torso/Neck/Head/Eye Slot/Teeth11,Root/LegL3/LegL4/ChinL3/FootL2/Toe7",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -2640,18 +2640,18 @@
 												},
 												{
 													"name": "Feather63",
-													"from": [ 5.0, 11.8, 3.0 ],
-													"to": [ 7.0, 12.0, 4.0 ],
+													"from": [ 5.0, 11.8, 3.5 ],
+													"to": [ 9.0, 13.0, 4.5 ],
 													"uv": [ 0.0, 0.0 ],
-													"rotationOrigin": [ 7.0, 12.0, 3.5 ],
+													"rotationOrigin": [ 7.0, 12.0, 4.0 ],
 													"rotationZ": -22.0,
 													"faces": {
-														"north": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.64, 1.92, 1.28 ] },
-														"east": { "texture": "#utahraptor-adult", "uv": [ 1.92, 0.64, 2.88, 1.28 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 2.88, 0.64, 4.8, 1.28 ] },
-														"west": { "texture": "#utahraptor-adult", "uv": [ 4.8, 0.64, 5.76, 1.28 ] },
-														"up": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.0, 1.92, 0.64 ] },
-														"down": { "texture": "#utahraptor-adult", "uv": [ 1.92, 0.0, 3.84, 0.64 ] }
+														"north": { "texture": "#utahraptor-adult", "uv": [ 0.0, 1.0, 4.0, 2.0 ] },
+														"east": { "texture": "#utahraptor-adult", "uv": [ 4.0, 1.0, 5.0, 2.0 ] },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 5.0, 1.0, 9.0, 2.0 ] },
+														"west": { "texture": "#utahraptor-adult", "uv": [ 9.0, 1.0, 10.0, 2.0 ] },
+														"up": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+														"down": { "texture": "#utahraptor-adult", "uv": [ 4.0, 0.0, 8.0, 1.0 ] }
 													}
 												},
 												{
@@ -2672,18 +2672,18 @@
 												},
 												{
 													"name": "Feather65",
-													"from": [ 8.0, 11.8, 3.7 ],
-													"to": [ 10.0, 12.0, 4.7 ],
+													"from": [ 5.6, 12.8, 3.5 ],
+													"to": [ 11.6, 14.0, 4.5 ],
 													"uv": [ 0.0, 0.0 ],
-													"rotationOrigin": [ 10.0, 12.0, 4.2 ],
-													"rotationZ": -22.0,
+													"rotationOrigin": [ 7.6, 13.0, 4.0 ],
+													"rotationZ": -33.0,
 													"faces": {
-														"north": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.64, 1.92, 1.28 ] },
-														"east": { "texture": "#utahraptor-adult", "uv": [ 1.92, 0.64, 2.88, 1.28 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 2.88, 0.64, 4.8, 1.28 ] },
-														"west": { "texture": "#utahraptor-adult", "uv": [ 4.8, 0.64, 5.76, 1.28 ] },
-														"up": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.0, 1.92, 0.64 ] },
-														"down": { "texture": "#utahraptor-adult", "uv": [ 1.92, 0.0, 3.84, 0.64 ] }
+														"north": { "texture": "#utahraptor-adult", "uv": [ 0.0, 1.0, 6.0, 2.0 ] },
+														"east": { "texture": "#utahraptor-adult", "uv": [ 6.0, 1.0, 7.0, 2.0 ] },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 7.0, 1.0, 13.0, 2.0 ] },
+														"west": { "texture": "#utahraptor-adult", "uv": [ 13.0, 1.0, 14.0, 2.0 ] },
+														"up": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+														"down": { "texture": "#utahraptor-adult", "uv": [ 6.0, 0.0, 12.0, 1.0 ] }
 													}
 												},
 												{
@@ -2736,18 +2736,18 @@
 												},
 												{
 													"name": "Feather69",
-													"from": [ 11.0, 11.8, 3.7 ],
-													"to": [ 13.0, 12.0, 4.7 ],
+													"from": [ 8.0, 12.5, 3.5 ],
+													"to": [ 12.0, 13.5, 4.5 ],
 													"uv": [ 0.0, 0.0 ],
-													"rotationOrigin": [ 13.0, 12.0, 4.2 ],
-													"rotationZ": -22.0,
+													"rotationOrigin": [ 10.0, 12.7, 4.0 ],
+													"rotationZ": -42.0,
 													"faces": {
-														"north": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.64, 1.92, 1.28 ] },
-														"east": { "texture": "#utahraptor-adult", "uv": [ 1.92, 0.64, 2.88, 1.28 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 2.88, 0.64, 4.8, 1.28 ] },
-														"west": { "texture": "#utahraptor-adult", "uv": [ 4.8, 0.64, 5.76, 1.28 ] },
-														"up": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.0, 1.92, 0.64 ] },
-														"down": { "texture": "#utahraptor-adult", "uv": [ 1.92, 0.0, 3.84, 0.64 ] }
+														"north": { "texture": "#utahraptor-adult", "uv": [ 0.0, 1.0, 4.0, 2.0 ] },
+														"east": { "texture": "#utahraptor-adult", "uv": [ 4.0, 1.0, 5.0, 2.0 ] },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 5.0, 1.0, 9.0, 2.0 ] },
+														"west": { "texture": "#utahraptor-adult", "uv": [ 9.0, 1.0, 10.0, 2.0 ] },
+														"up": { "texture": "#utahraptor-adult", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+														"down": { "texture": "#utahraptor-adult", "uv": [ 4.0, 0.0, 8.0, 1.0 ] }
 													}
 												}
 											]

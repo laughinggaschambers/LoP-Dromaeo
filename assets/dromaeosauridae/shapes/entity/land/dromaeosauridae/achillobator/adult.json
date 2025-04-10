@@ -7119,8 +7119,10 @@
 				{
 					"frame": 0,
 					"elements": {
+						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
 						"ArmR2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -19.0 },
 						"ArmR3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
+						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
 						"ArmL2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -19.0 },
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -20.0 },
 						"Neck": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
