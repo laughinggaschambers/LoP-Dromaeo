@@ -6,27 +6,31 @@
         {"code": "age","states": [ "adult","baby"]},
         {"code": "gender","states": ["male","female"]},
     ],
-    "fallDamageMultiplierByType": { "*-baby-*" :1,"*-adult-*" :10},
+    "fallDamageMultiplierByType": { "*-baby-*" :1,"*-adult-*" :2},
+    "canclimbanywhere":true,
     "hitBoxSizeByType": {
-			"*-tyrannosaurus-adult-male": {"x": 3,"y": 4},"*-tyrannosaurus-adult-female": {"x": 3,"y": 4},"*-tyrannosaurus-baby-*": {"x": 0.7,"y": 0.7},
-			"*-tarbosaurus-adult-male": {"x": 3,"y": 3.9},"*-tarbosaurus-adult-female": {"x": 3,"y": 3.9},"*-tarbosaurus-baby-*": {"x": 0.7,"y": 0.6},
-			"*-nanuqsaurus-adult-male": {"x": 3,"y": 2.5},"*-nanuqsaurus-adult-female": {"x": 3,"y": 2.5},"*-nanuqsaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-albertosaurus-adult-male": {"x": 3,"y": 2.75},"*-albertosaurus-adult-female": {"x": 3,"y": 2.75},"*-albertosaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-gorgosaurus-adult-male": {"x": 3,"y": 2.75},"*-gorgosaurus-adult-female": {"x": 3,"y": 2.75},"*-gorgosaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-alioramus-adult-male": {"x": 3,"y": 2},"*-alioramus-adult-female": {"x": 3,"y": 2},"*-alioramus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-qianzhousaurus-adult-male": {"x": 3,"y": 2.75},"*-qianzhousaurus-adult-female": {"x": 3,"y": 2.75},"*-qianzhousaurus-baby-*": {"x": 0.7,"y": 0.5},
+			"*-utahraptor-adult-male": {"x": 2,"y": 3},"*-utahraptor-adult-female": {"x": 2,"y": 3},"*-utahraptor-baby-*": {"x": 0.5,"y": 0.5},
+			"*-dakotaraptor-adult-male": {"x": 2,"y": 3},"*-dakotaraptor-adult-female": {"x": 2,"y": 3},"*-dakotaraptor-baby-*": {"x": 0.5,"y": 0.5},
+			"*-deinonychus-adult-male": {"x": 2,"y": 3},"*-deinonychus-adult-female": {"x": 2,"y": 3},"*-deinonychus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-velociraptor-adult-male": {"x": 2,"y": 3},"*-velociraptor-adult-female": {"x": 2,"y": 3},"*-velociraptor-baby-*": {"x": 0.5,"y": 0.5},
+			"*-achillobator-adult-male": {"x": 2,"y": 3},"*-achillobator-adult-female": {"x": 2,"y": 3},"*-achillobator-baby-*": {"x": 0.5,"y": 0.5},
+			"*-austroraptor-adult-male": {"x": 2,"y": 3},"*-austroraptor-adult-female": {"x": 2,"y": 3},"*-austroraptor-baby-*": {"x": 0.5,"y": 0.5},
+			"*-saurornitholestes-adult-male": {"x": 2,"y": 3},"*-saurornitholestes-adult-female": {"x": 2,"y": 3},"*-saurornitholestes-baby-*": {"x": 0.5,"y": 0.5},
+			"*-rahonavis-adult-male": {"x": 2,"y": 3},"*-rahonavis-adult-female": {"x": 2,"y": 3},"*-rahonavis-baby-*": {"x": 0.5,"y": 0.5},
+			"*-buitreraptor-adult-male": {"x": 2,"y": 3},"*-buitreraptor-adult-female": {"x": 2,"y": 3},"*-buitreraptor-baby-*": {"x": 0.5,"y": 0.5},
+			"*-adasaurus-adult-male": {"x": 2,"y": 3},"*-adasaurus-adult-female": {"x": 2,"y": 3},"*-adasaurus-baby-*": {"x": 0.5,"y": 0.5},
 		},
 
     "deadhitBoxSizeByType": {"*-adult-*":{	"x": 2,"y": 2},"*-baby-*":{	"x": 1,"y": 1}},
     "eyeHeightByType": {"*":3},
-    "weightByType": {"*-adult-*":4000,"*-baby-*":10},
-    "knockbackResistanceByType": {"*-adult-*": 3,"*-baby-*": 1	},
+    "weightByType": {"*-adult-*":1000,"*-baby-*":10},
+    "knockbackResistanceByType": {"*-adult-*": 2,"*-baby-*": 1	},
 
     "drops": [],
     "attributes": {
 		"tamedByType": {"*": false },
 		"killedByInfoText": "deadcreature-killed",
-		"handbook": {"groupcode": "creaturegroup-tyrannosauridae"},
+		"handbook": {"groupcode": "creaturegroup-dromaeosauridae"},
 		"minGenerationToAllowHealing": 0,
 		"creatureDiet": {
 			"foodCategories": ["Protein"],
@@ -36,10 +40,10 @@
 	"behaviorConfigs": {
 		"rideableaccessories": {
 			"wearableSlots": [
-				{"code": "head", "forCategoryCodes": ["tyrannobridle"], "attachmentPointCode": "HeadAP" },
+				{"code": "head", "forCategoryCodes": [], "attachmentPointCode": "HeadAP" },
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
-				{"code": "middleback", "forCategoryCodes": ["tyrannosaddle"], "attachmentPointCode": "MidAP","stepParentTo": {"": { "elementName": "Torso" }} },
+				{"code": "middleback", "forCategoryCodes": [], "attachmentPointCode": "MidAP","stepParentTo": {"": { "elementName": "Torso" }} },
 			]
 		},
 		"selectionboxes": {
@@ -270,31 +274,40 @@
     "client": {
         "renderer": "Shape",
         "shapeByType": {
-			"*-tyrannosaurus-adult-*":{"base": "entity/land/tyrannosauridae/tyrannosaurus/adult"},"*-tyrannosaurus-baby-*":{"base": "entity/land/tyrannosauridae/tyrannosaurus/baby"},
-			"*-tarbosaurus-adult-*":{"base": "entity/land/tyrannosauridae/tarbosaurus/adult"},"*-tarbosaurus-baby-*":{"base": "entity/land/tyrannosauridae/tarbosaurus/baby"},
-			"*-nanuqsaurus-adult-*":{"base": "entity/land/tyrannosauridae/nanuqsaurus/adult"},"*-nanuqsaurus-baby-*":{"base": "entity/land/tyrannosauridae/nanuqsaurus/baby"},
-			"*-albertosaurus-adult-*":{"base": "entity/land/tyrannosauridae/albertosaurus/adult"},"*-albertosaurus-baby-*":{"base": "entity/land/tyrannosauridae/albertosaurus/baby"},
-			"*-gorgosaurus-adult-*":{"base": "entity/land/tyrannosauridae/gorgosaurus/adult"},"*-gorgosaurus-baby-*":{"base": "entity/land/tyrannosauridae/gorgosaurus/baby"},
-			"*-alioramus-adult-*":{"base": "entity/land/tyrannosauridae/alioramus/adult"},"*-alioramus-baby-*":{"base": "entity/land/tyrannosauridae/alioramus/baby"},
-			"*-qianzhousaurus-adult-*":{"base": "entity/land/tyrannosauridae/qianzhousaurus/adult"},"*-qianzhousaurus-baby-*":{"base": "entity/land/tyrannosauridae/qianzhousaurus/baby"},
+			"*-utahraptor-adult-*": {"base": "entity/land/dromaeosauridae/utahraptor/adult"}, "*-utahraptor-baby-*": {"base": "entity/land/dromaeosauridae/utahraptor/baby"},
+			"*-dakotaraptor-adult-*": {"base": "entity/land/dromaeosauridae/dakotaraptor/adult"}, "*-dakotaraptor-baby-*": {"base": "entity/land/dromaeosauridae/dakotaraptor/baby"},
+			"*-deinonychus-adult-*": {"base": "entity/land/dromaeosauridae/deinonychus/adult"}, "*-deinonychus-baby-*": {"base": "entity/land/dromaeosauridae/deinonychus/baby"},
+			"*-velociraptor-adult-*": {"base": "entity/land/dromaeosauridae/velociraptor/adult"}, "*-velociraptor-baby-*": {"base": "entity/land/dromaeosauridae/velociraptor/baby"},
+			"*-achillobator-adult-*": {"base": "entity/land/dromaeosauridae/achillobator/adult"}, "*-achillobator-baby-*": {"base": "entity/land/dromaeosauridae/achillobator/baby"},
+			"*-austroraptor-adult-*": {"base": "entity/land/dromaeosauridae/austroraptor/adult"}, "*-austroraptor-baby-*": {"base": "entity/land/dromaeosauridae/austroraptor/baby"},
+			"*-saurornitholestes-adult-*": {"base": "entity/land/dromaeosauridae/saurornitholestes/adult"}, "*-saurornitholestes-baby-*": {"base": "entity/land/dromaeosauridae/saurornitholestes/baby"},
+			"*-rahonavis-adult-*": {"base": "entity/land/dromaeosauridae/rahonavis/adult"}, "*-rahonavis-baby-*": {"base": "entity/land/dromaeosauridae/rahonavis/baby"},
+			"*-buitreraptor-adult-*": {"base": "entity/land/dromaeosauridae/buitreraptor/adult"}, "*-buitreraptor-baby-*": {"base": "entity/land/dromaeosauridae/buitreraptor/baby"},
+			"*-adasaurus-adult-*": {"base": "entity/land/dromaeosauridae/adasaurus/adult"}, "*-adasaurus-baby-*": {"base": "entity/land/dromaeosauridae/adasaurus/baby"},
 		},
          "textureByType": {
-            "*-tyrannosaurus-adult-*":{"base": "entity/tyrannosaurus-adult"},"*-tyrannosaurus-baby-*":{"base": "entity/tyrannosaurus-baby"},
-            "*-tarbosaurus-adult-*":{"base": "entity/tarbosaurus-adult"},"*-tarbosaurus-baby-*":{"base": "entity/tarbosaurus-baby"},
-            "*-nanuqsaurus-adult-*":{"base": "entity/nanuqsaurus-adult"},"*-nanuqsaurus-baby-*":{"base": "entity/nanuqsaurus-baby"},
-            "*-albertosaurus-adult-*":{"base": "entity/albertosaurus-adult"},"*-albertosaurus-baby-*":{"base": "entity/albertosaurus-baby"},
-            "*-gorgosaurus-adult-*":{"base": "entity/gorgosaurus-adult"},"*-gorgosaurus-baby-*":{"base": "entity/gorgosaurus-adult"},
-            "*-alioramus-adult-*":{"base": "entity/alioramus-adult"},"*-alioramus-baby-*":{"base": "entity/alioramus-baby"},
-            "*-qianzhousaurus-adult-*":{"base": "entity/qianzhousaurus-adult"},"*-qianzhousaurus-baby-*":{"base": "entity/qianzhousaurus-adult"},
+            "*-utahraptor-adult-*":{"base": "entity/utahraptor-adult"},"*-utahraptor-baby-*":{"base": "entity/utahraptor-baby"},
+			"*-dakotaraptor-adult-*":{"base": "entity/dakotaraptor-adult"},"*-dakotaraptor-baby-*":{"base": "entity/dakotaraptor-baby"},
+			"*-deinonychus-adult-*":{"base": "entity/deinonychus-adult"},"*-deinonychus-baby-*":{"base": "entity/deinonychus-baby"},
+			"*-velociraptor-adult-*":{"base": "entity/velociraptor-adult"},"*-velociraptor-baby-*":{"base": "entity/velociraptor-baby"},
+			"*-achillobator-adult-*":{"base": "entity/achillobator-adult"},"*-achillobator-baby-*":{"base": "entity/achillobator-baby"},
+			"*-austroraptor-adult-*":{"base": "entity/austroraptor-adult"},"*-austroraptor-baby-*":{"base": "entity/austroraptor-baby"},
+			"*-saurornitholestes-adult-*":{"base": "entity/saurornitholestes-adult"},"*-saurornitholestes-baby-*":{"base": "entity/saurornitholestes-baby"},
+			"*-rahonavis-adult-*":{"base": "entity/rahonavis-adult"},"*-rahonavis-baby-*":{"base": "entity/rahonavis-baby"},
+			"*-buitreraptor-adult-*":{"base": "entity/buitreraptor-adult"},"*-buitreraptor-baby-*":{"base": "entity/buitreraptor-baby"},
+			"*-adasaurus-adult-*":{"base": "entity/adasaurus-adult"},"*-adasaurus-baby-*":{"base": "entity/adasaurus-baby"},
         },
         "sizeByType": {
-			"*-tyrannosaurus-adult-male": 1.0,"*-tyrannosaurus-adult-female": 0.9,"*-tyrannosaurus-baby-*": 1.0,
-			"*-tarbosaurus-adult-male": 0.8,"*-tarbosaurus-adult-female": 0.7,"*-tarbosaurus-baby-*": 0.9,
-			"*-nanuqsaurus-adult-male": 0.5,"*-nanuqsaurus-adult-female": 0.4,"*-nanuqsaurus-baby-*": 0.6,
-			"*-albertosaurus-adult-male": 0.7,"*-albertosaurus-adult-female": 0.6,"*-albertosaurus-baby-*": 0.8,
-			"*-gorgosaurus-adult-male": 0.6,"*-gorgosaurus-adult-female": 0.5,"*-gorgosaurus-baby-*": 0.7,
-			"*-alioramus-adult-male": 0.45,"*-alioramus-adult-female": 0.4,"*-alioramus-baby-*": 0.5,
-			"*-qianzhousaurus-adult-male": 0.6,"*-qianzhousaurus-adult-female": 0.5,"*-qianzhousaurus-baby-*": 0.7,
+			"*-utahraptor-adult-male": 1.0,"*-utahraptor-adult-female": 0.9,"*-utahraptor-baby-*": 1.0,
+			"*-dakotaraptor-adult-male": 1.0,"*-dakotaraptor-adult-female": 0.9,"*-dakotaraptor-baby-*": 1.0,
+			"*-deinonychus-adult-male": 1.0,"*-deinonychus-adult-female": 0.9,"*-deinonychus-baby-*": 1.0,
+			"*-velociraptor-adult-male": 1.0,"*-velociraptor-adult-female": 0.9,"*-velociraptor-baby-*": 1.0,
+			"*-achillobator-adult-male": 1.0,"*-achillobator-adult-female": 0.9,"*-achillobator-baby-*": 1.0,
+			"*-austroraptor-adult-male": 1.0,"*-austroraptor-adult-female": 0.9,"*-austroraptor-baby-*": 1.0,
+			"*-saurornitholestes-adult-male": 1.0,"*-saurornitholestes-adult-female": 0.9,"*-saurornitholestes-baby-*": 1.0,
+			"*-rahonavis-adult-male": 1.0,"*-rahonavis-adult-female": 0.9,"*-rahonavis-baby-*": 1.0,
+			"*-buitreraptor-adult-male": 1.0,"*-buitreraptor-adult-female": 0.9,"*-buitreraptor-baby-*": 1.0,
+			"*-adasaurus-adult-male": 1.0,"*-adasaurus-adult-female": 0.9,"*-adasaurus-baby-*": 1.0,
 		},
         "behaviors": [
 			{"code": "mortallywoundable", "enabledByType": { "*-baby-*": false, "*": false},"minGeneration": 2 },
@@ -302,13 +315,16 @@
 			{"code": "controlledphysics","stepHeightByType":
 				{
 				"*-baby-*":1.1251,
-				"*-tyrannosaurus-adult-*": 2.5,
-				"*-tarbosaurus-adult-*": 2.5,
-				"*-nanuqsaurus-adult-*": 2,
-				"*-albertosaurus-adult-*": 2,
-				"*-gorgosaurus-adult-*": 2,
-				"*-alioramus-adult-*": 1.5,
-				"*-qianzhousaurus-adult-*": 2,
+				"*-utahraptor-adult-*": 1.5,
+				"*-dakotaraptor-adult-*": 1.5,
+				"*-deinonychus-adult-*": 1.5,
+				"*-velociraptor-adult-*": 1.5,
+				"*-achillobator-adult-*": 1.5,
+				"*-austroraptor-adult-*": 1.5,
+				"*-saurornitholestes-adult-*": 1.5,
+				"*-rahonavis-adult-*": 1.5,
+				"*-buitreraptor-adult-*": 1.5,
+				"*-adasaurus-adult-*": 1.5,
 				}
 			},
 			{"code": "floatupwhenstuck","onlyWhenDead": true},
@@ -316,11 +332,11 @@
 			{"code": "harvestable","quantitySlots": 8},
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
-			{"code": "ropetieable","minGeneration": 8},
+			{"code": "ropetieable","minGeneration": 3},
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 10 },
         ],
         "animations": [
             {"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -347,18 +363,21 @@
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 10 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeightByType":
 				{
 				"*-baby-*":1.1251,
-				"*-tyrannosaurus-adult-*": 2.5,
-				"*-tarbosaurus-adult-*": 2.5,
-				"*-nanuqsaurus-adult-*": 2,
-				"*-albertosaurus-adult-*": 2,
-				"*-gorgosaurus-adult-*": 2,
-				"*-alioramus-adult-*": 1.5,
-				"*-qianzhousaurus-adult-*": 2,
+				"*-utahraptor-adult-*": 1.5,
+				"*-dakotaraptor-adult-*": 1.5,
+				"*-deinonychus-adult-*": 1.5,
+				"*-velociraptor-adult-*": 1.5,
+				"*-achillobator-adult-*": 1.5,
+				"*-austroraptor-adult-*": 1.5,
+				"*-saurornitholestes-adult-*": 1.5,
+				"*-rahonavis-adult-*": 1.5,
+				"*-buitreraptor-adult-*": 1.5,
+				"*-adasaurus-adult-*": 1.5,
 				}
 			},
             {"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
@@ -366,13 +385,16 @@
             {"code": "breathe"},
             {"code": "health",
                     "maxhealthByType": {
-                        "*-tyrannosaurus-adult-male": 250,"*-tyrannosaurus-adult-female": 240,"*-tyrannosaurus-baby-*": 20,
-                        "*-tarbosaurus-adult-male": 230,"*-tarbosaurus-adult-female": 220,"*-tarbosaurus-baby-*": 18,
-                        "*-nanuqsaurus-adult-male": 175,"*-nanuqsaurus-adult-female": 165,"*-nanuqsaurus-baby-*": 10,
-                        "*-albertosaurus-adult-male": 220,"*-albertosaurus-adult-female": 210,"*-albertosaurus-baby-*": 17,
-                        "*-gorgosaurus-adult-male": 210,"*-gorgosaurus-adult-female": 200,"*-gorgosaurus-baby-*": 16,
-                        "*-alioramus-adult-male": 165,"*-alioramus-adult-female": 155,"*-alioramus-baby-*": 9,
-                        "*-qianzhousaurus-adult-male": 210,"*-qianzhousaurus-adult-female": 200,"*-qianzhousaurus-baby-*": 16,
+                        "*-utahraptor-adult-male": 50,"*-utahraptor-adult-female": 40,"*-utahraptor-baby-*": 15,
+						"*-dakotaraptor-adult-male": 50,"*-dakotaraptor-adult-female": 40,"*-dakotaraptor-baby-*": 15,
+						"*-deinonychus-adult-male": 50,"*-deinonychus-adult-female": 40,"*-deinonychus-baby-*": 15,
+						"*-velociraptor-adult-male": 50,"*-velociraptor-adult-female": 40,"*-velociraptor-baby-*": 15,
+						"*-achillobator-adult-male": 50,"*-achillobator-adult-female": 40,"*-achillobator-baby-*": 15,
+						"*-austroraptor-adult-male": 50,"*-austroraptor-adult-female": 40,"*-austroraptor-baby-*": 15,
+						"*-saurornitholestes-adult-male": 50,"*-saurornitholestes-adult-female": 40,"*-saurornitholestes-baby-*": 15,
+						"*-rahonavis-adult-male": 50,"*-rahonavis-adult-female": 40,"*-rahonavis-baby-*": 15,
+						"*-buitreraptor-adult-male": 50,"*-buitreraptor-adult-female": 40,"*-buitreraptor-baby-*": 15,
+						"*-adasaurus-adult-male": 50,"*-adasaurus-adult-female": 40,"*-adasaurus-baby-*": 15,
                     }
 			},
             {"code": "deaddecay","hoursToDecay": 96,"decayedBlockByType": {"*-adult-*": "carcass-large","*-baby-*": "carcass-small"}},
@@ -381,15 +403,18 @@
 				"drops": [
 					{
 						"type": "item",
-						"code": "game:redmeat-raw",
+						"code": "game:bushmeat-raw",
 						"quantityByType": {
-							"*-tyrannosaurus-adult-*": {"avg": 200,"var": 10}, "*-tyrannosaurus-baby-*": {"avg": 5,"var": 1},
-							"*-tarbosaurus-adult-*": {"avg": 180,"var": 10}, "*-tarbosaurus-baby-*": {"avg": 4,"var": 1},
-							"*-nanuqsaurus-adult-*": {"avg": 165,"var": 10}, "*-nanuqsaurus-baby-*": {"avg": 4,"var": 1},
-							"*-albertosaurus-adult-*": {"avg": 170,"var": 10}, "*-albertosaurus-baby-*": {"avg": 4,"var": 1},
-							"*-gorgosaurus-adult-*": {"avg": 165,"var": 10}, "*-gorgosaurus-baby-*": {"avg": 4,"var": 1},
-							"*-alioramus-adult-*": {"avg": 155,"var": 10}, "*-alioramus-baby-*": {"avg": 3,"var": 1},
-							"*-qianzhousaurus-adult-*": {"avg": 165,"var": 10}, "*-qianzhousaurus-baby-*": {"avg": 4,"var": 1},
+							"*-utahraptor-adult-*": {"avg": 30,"var": 10}, "*-utahraptor-baby-*": {"avg": 3,"var": 1},
+							"*-dakotaraptor-adult-*": {"avg": 30,"var": 10}, "*-dakotaraptor-baby-*": {"avg": 3,"var": 1},
+							"*-deinonychus-adult-*": {"avg": 30,"var": 10}, "*-deinonychus-baby-*": {"avg": 3,"var": 1},
+							"*-velociraptor-adult-*": {"avg": 30,"var": 10}, "*-velociraptor-baby-*": {"avg": 3,"var": 1},
+							"*-achillobator-adult-*": {"avg": 30,"var": 10}, "*-achillobator-baby-*": {"avg": 3,"var": 1},
+							"*-austroraptor-adult-*": {"avg": 30,"var": 10}, "*-austroraptor-baby-*": {"avg": 3,"var": 1},
+							"*-saurornitholestes-adult-*": {"avg": 30,"var": 10}, "*-saurornitholestes-baby-*": {"avg": 3,"var": 1},
+							"*-rahonavis-adult-*": {"avg": 30,"var": 10}, "*-rahonavis-baby-*": {"avg": 3,"var": 1},
+							"*-buitreraptor-adult-*": {"avg": 30,"var": 10}, "*-buitreraptor-baby-*": {"avg": 3,"var": 1},
+							"*-adasaurus-adult-*": {"avg": 30,"var": 10}, "*-adasaurus-baby-*": {"avg": 3,"var": 1},
 						}
 					},
 					{
@@ -409,13 +434,16 @@
 						"type": "item",
 						"code": "game:hide-raw-huge",
 						"quantityByType": {
-							"*-tyrannosaurus-adult-*": {"avg": 10,"var": 0}, "*-tyrannosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-tarbosaurus-adult-*": {"avg": 8,"var": 0}, "*-tarbosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-nanuqsaurus-adult-*": {"avg": 5,"var": 0}, "*-nanuqsaurus-baby-*": {"avg": 0,"var": 0},
-							"*-albertosaurus-adult-*": {"avg": 7,"var": 0}, "*-albertosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-gorgosaurus-adult-*": {"avg": 6,"var": 0}, "*-gorgosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-alioramus-adult-*": {"avg": 4,"var": 0}, "*-alioramus-baby-*": {"avg": 0,"var": 0},
-							"*-qianzhousaurus-adult-*": {"avg": 6,"var": 0}, "*-qianzhousaurus-baby-*": {"avg": 0,"var": 0},
+							"*-utahraptor-adult-*": {"avg": 3,"var": 0},
+							"*-dakotaraptor-adult-*": {"avg": 3,"var": 0},
+							"*-deinonychus-adult-*": {"avg": 3,"var": 0},
+							"*-velociraptor-adult-*": {"avg": 3,"var": 0},
+							"*-achillobator-adult-*": {"avg": 3,"var": 0},
+							"*-austroraptor-adult-*": {"avg": 3,"var": 0},
+							"*-saurornitholestes-adult-*": {"avg": 3,"var": 0},
+							"*-rahonavis-adult-*": {"avg": 3,"var": 0},
+							"*-buitreraptor-adult-*": {"avg": 3,"var": 0},
+							"*-adasaurus-adult-*": {"avg": 3,"var": 0},
 						}
 					},
 					{
@@ -431,9 +459,7 @@
 						"code": "game:feather",
 						"quantityByType": {
 							"*-baby-*": {"avg": 12.0,"var": 2.0},
-							"*-nanuqsaurus-adult-*": {"avg": 20,"var": 4},
-							"*-gorgosaurus-adult-*": {"avg": 15,"var": 4},
-							"*-qianzhousaurus-adult-*": {"avg": 15,"var": 4},
+							"*-adult-*": {"avg": 20,"var": 4},
 							"*": {"avg": 0.0,"var": 0.0}
 						}
 					}
@@ -445,36 +471,36 @@
 					"*": false
 				},
 				"spawnEntityCodesByType": {
-					"*": [ { "code":"tyrannosauridae:tyrannosauridae-{type}-egg-raw"}]},
+					"*": [ { "code":"dromaeosauridae:dromaeosauridae-{type}-egg-raw"}]},
 				"requiresNearbyEntityCodeByType": {
-					"*": "tyrannosauridae:tyrannosauridae-{type}-adult-male"},
+					"*": "dromaeosauridae:dromaeosauridae-{type}-adult-male"},
 				"eatAnyway": true,
 				"requiresNearbyEntityRange": 20,
 				"spawnQuantityMin": 6,
 				"spawnQuantityMaxByType": {"*": 12},
 				"pregnancyDaysByType": {"*": 30},
-				"multiplyCooldownDaysMinByType": {"*": 30},
-				"multiplyCooldownDaysMaxByType": {"*": 70},
-				"portionsEatenForMultiplyByType": {"*": 30}
+				"multiplyCooldownDaysMinByType": {"*": 20},
+				"multiplyCooldownDaysMaxByType": {"*": 40},
+				"portionsEatenForMultiplyByType": {"*": 15}
 			},
             {"code": "grow",
 					"enabledByType": {
 					"*-baby-*": true,
 					"*": false
 				},
-				"hoursToGrowByType": {"*": 1500},
+				"hoursToGrowByType": {"*": 200},
 				"adultEntityCodesByType": {
-					"*-baby-male": ["tyrannosauridae:tyrannosauridae-{type}-adult-male"],
-					"*-baby-female": ["tyrannosauridae:tyrannosauridae-{type}-adult-female"]
+					"*-baby-male": ["dromaeosauridae:dromaeosauridae-{type}-adult-male"],
+					"*-baby-female": ["dromaeosauridae:dromaeosauridae-{type}-adult-female"]
 				}
 			},
 			{"code": "emotionstates",
 				"states": [
 					{"code": "aggressiveondamage","duration": 60,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0.5},"slot": 3,"priority": 3,"accumType": "noaccum"},
-					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.3},
-					{"code": "fleeondamage","duration": 30,"slot": 1,"chanceByType": {"*-adult-*": 0,"*-baby-*": 1},"priority": 0.75,"accumType": "max","whenHealthRelBelow": 0.5},
+					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.7},
+					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 0,"*-baby-*": 1},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.95},
 					{"code": "saturated","duration": 1200,"chance": 1,"slot": 0,"priority": 1,"accumType": "sum"},
-					{ "code": "aggressivearoundentities", "duration": 60, "chanceByType": {"*-baby-*": 0.0,"*-adult-*": 1.0}, "slot": 2, "priority": 5, "entityCodes": ["tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female"], "maxGeneration": 5 }
+					{"code": "aggressivearoundentities", "duration": 60, "chanceByType": {"*-baby-*": 0.0,"*-adult-*": 1.0}, "slot": 2, "priority": 5, "entityCodes": ["dromaeosauridae:dromaeosauridae-{type}-baby-male","dromaeosauridae:dromaeosauridae-{type}-baby-female"], "maxGeneration": 3}
 				]
 			},
 			{"code": "taskai",
@@ -484,7 +510,7 @@
                         "code": "meleeattack",
                         "animation": "Attack",
                         "entityCodesByType": {
-							"*-adult-*":
+							"*":
 								[
 									"player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
@@ -493,27 +519,20 @@
 									"cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
 									"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "geodecrab-*", "giraffe", "golem-*", "hellboar-*", "horse-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*"
 								],
-							"*-baby-*":
-								[
-									"player","chicken-*","gazelle-*","goat-*","sheep-*","pig-*","hare-*","deer-*","raccoon-*","moose-*","wolf-pup",
-
-									"*-baby-*",
-
-									"cervidae-*", "cervinae-*", "bovinae-*", "capreolinae-*", "dinornithidae-*",
-									"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "faunling-*", "foal-*", "geodecrab-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*",
-								],
-
 							},
                         "priority": 1.9,
                         "slot": 1,
                         "damageByType": {
-							"*-tyrannosaurus-adult-male": 30,"*-tyrannosaurus-adult-female": 29,"*-tyrannosaurus-baby-*": 5,
-							"*-tarbosaurus-adult-male": 28,"*-tarbosaurus-adult-": 27,"*-tarbosaurus-baby-*": 4,
-							"*-nanuqsaurus-adult-male": 22,"*-nanuqsaurus-adult-female": 21,"*-nanuqsaurus-baby-*": 4,
-							"*-albertosaurus-adult-male": 26,"*-albertosaurus-adult-female": 25,"*-albertosaurus-baby-*": 3,
-							"*-gorgosaurus-adult-male": 24,"*-gorgosaurus-adult-female": 23,"*-gorgosaurus-baby-*": 3,
-							"*-alioramus-adult-male": 22,"*-alioramus-adult-female": 21,"*-alioramus-baby-*": 2,
-							"*-qianzhousaurus-adult-male": 24,"*-qianzhousaurus-adult-female": 23,"*-qianzhousaurus-baby-*": 3
+							"*-utahraptor-adult-male": 12,"*-utahraptor-adult-female": 11,"*-utahraptor-baby-*": 3,
+							"*-dakotaraptor-adult-male": 12,"*-dakotaraptor-adult-female": 11,"*-dakotaraptor-baby-*": 3,
+							"*-deinonychus-adult-male": 12,"*-deinonychus-adult-female": 11,"*-deinonychus-baby-*": 3,
+							"*-velociraptor-adult-male": 12,"*-velociraptor-adult-female": 11,"*-velociraptor-baby-*": 3,
+							"*-achillobator-adult-male": 12,"*-achillobator-adult-female": 11,"*-achillobator-baby-*": 3,
+							"*-austroraptor-adult-male": 12,"*-austroraptor-adult-female": 11,"*-austroraptor-baby-*": 3,
+							"*-saurornitholestes-adult-male": 12,"*-saurornitholestes-adult-female": 11,"*-saurornitholestes-baby-*": 3,
+							"*-rahonavis-adult-male": 12,"*-rahonavis-adult-female": 11,"*-rahonavis-baby-*": 3,
+							"*-buitreraptor-adult-male": 12,"*-buitreraptor-adult-female": 11,"*-buitreraptor-baby-*": 3,
+							"*-adasaurus-adult-male": 12,"*-adasaurus-adult-female": 11,"*-adasaurus-baby-*": 3,
                         },
                         "damageType": "SlashingAttack",
                         "knockbackStrengthByType": {
@@ -522,23 +541,26 @@
 							},
                         "damageTierByType": {
 							"*-baby-*":1,
-							"*-tyrannosaurus-adult-*": 4,
-							"*-tarbosaurus-adult-*": 4,
-							"*-nanuqsaurus-adult-*": 3,
-							"*-albertosaurus-adult-*": 3,
-							"*-gorgosaurus-adult-*": 3,
-							"*-alioramus-adult-*": 2,
-							"*-qianzhousaurus-adult-*": 3,
+							"*-utahraptor-adult-*": 3,
+							"*-dakotaraptor-adult-*": 3,
+							"*-deinonychus-adult-*": 3,
+							"*-velociraptor-adult-*": 3,
+							"*-achillobator-adult-*": 3,
+							"*-austroraptor-adult-*": 3,
+							"*-saurornitholestes-adult-*": 3,
+							"*-rahonavis-adult-*": 3,
+							"*-buitreraptor-adult-*": 3,
+							"*-adasaurus-adult-*": 3,
 							},
-                        "mincooldown": 1250,
-                        "maxcooldown": 1500,
+                        "mincooldown": 1000,
+                        "maxcooldown": 1250,
                         "minDistByType": {
 							"*-baby-*":1,
-							"*-adult-*": 5,
+							"*-adult-*": 2,
 							},
                         "minVerDistByType": {
 							"*-baby-*":1,
-							"*-adult-*": 3,
+							"*-adult-*": 2,
 							},
                         "attackAngleRangeDeg": 90,
                         "attackDurationMs": 1250,
@@ -551,36 +573,29 @@
                         "code": "meleeattack",
                         "animation": "Attack",
                         "entityCodesByType": {
-							"*-adult-*":
+							"*":
 								[
 									"player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-									"ceratopsidae-*", "spinosauridae-*", "ankylosauria-*", "macronaria-*",
+									"ceratopsidae-*","spinosauridae-*","ankylosauria-*", "macronaria-*",
 
 									"cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
 									"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "geodecrab-*", "giraffe", "golem-*", "hellboar-*", "horse-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*"
 								],
-							"*-baby-*":
-								[
-									"player","chicken-*","gazelle-*","goat-*","sheep-*","pig-*","hare-*","deer-*","raccoon-*","moose-*","wolf-pup",
-
-									"*-baby-*",
-
-									"cervidae-*", "cervinae-*", "bovinae-*", "capreolinae-*", "dinornithidae-*",
-									"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "faunling-*", "foal-*", "geodecrab-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*",
-								],
-
 							},
                         "priority": 1.9,
                         "slot": 1,
                         "damageByType": {
-							"*-tyrannosaurus-adult-male": 30,"*-tyrannosaurus-adult-female": 29,"*-tyrannosaurus-baby-*": 5,
-							"*-tarbosaurus-adult-male": 28,"*-tarbosaurus-adult-": 27,"*-tarbosaurus-baby-*": 4,
-							"*-nanuqsaurus-adult-male": 22,"*-nanuqsaurus-adult-female": 21,"*-nanuqsaurus-baby-*": 4,
-							"*-albertosaurus-adult-male": 26,"*-albertosaurus-adult-female": 25,"*-albertosaurus-baby-*": 3,
-							"*-gorgosaurus-adult-male": 24,"*-gorgosaurus-adult-female": 23,"*-gorgosaurus-baby-*": 3,
-							"*-alioramus-adult-male": 22,"*-alioramus-adult-female": 21,"*-alioramus-baby-*": 2,
-							"*-qianzhousaurus-adult-male": 24,"*-qianzhousaurus-adult-female": 23,"*-qianzhousaurus-baby-*": 3
+							"*-utahraptor-adult-male": 12,"*-utahraptor-adult-female": 11,"*-utahraptor-baby-*": 3,
+							"*-dakotaraptor-adult-male": 12,"*-dakotaraptor-adult-female": 11,"*-dakotaraptor-baby-*": 3,
+							"*-deinonychus-adult-male": 12,"*-deinonychus-adult-female": 11,"*-deinonychus-baby-*": 3,
+							"*-velociraptor-adult-male": 12,"*-velociraptor-adult-female": 11,"*-velociraptor-baby-*": 3,
+							"*-achillobator-adult-male": 12,"*-achillobator-adult-female": 11,"*-achillobator-baby-*": 3,
+							"*-austroraptor-adult-male": 12,"*-austroraptor-adult-female": 11,"*-austroraptor-baby-*": 3,
+							"*-saurornitholestes-adult-male": 12,"*-saurornitholestes-adult-female": 11,"*-saurornitholestes-baby-*": 3,
+							"*-rahonavis-adult-male": 12,"*-rahonavis-adult-female": 11,"*-rahonavis-baby-*": 3,
+							"*-buitreraptor-adult-male": 12,"*-buitreraptor-adult-female": 11,"*-buitreraptor-baby-*": 3,
+							"*-adasaurus-adult-male": 12,"*-adasaurus-adult-female": 11,"*-adasaurus-baby-*": 3,
                         },
                         "damageType": "SlashingAttack",
                         "knockbackStrengthByType": {
@@ -589,23 +604,26 @@
 							},
                         "damageTierByType": {
 							"*-baby-*":1,
-							"*-tyrannosaurus-adult-*": 4,
-							"*-tarbosaurus-adult-*": 4,
-							"*-nanuqsaurus-adult-*": 3,
-							"*-albertosaurus-adult-*": 3,
-							"*-gorgosaurus-adult-*": 3,
-							"*-alioramus-adult-*": 2,
-							"*-qianzhousaurus-adult-*": 3,
+							"*-utahraptor-adult-*": 3,
+							"*-dakotaraptor-adult-*": 3,
+							"*-deinonychus-adult-*": 3,
+							"*-velociraptor-adult-*": 3,
+							"*-achillobator-adult-*": 3,
+							"*-austroraptor-adult-*": 3,
+							"*-saurornitholestes-adult-*": 3,
+							"*-rahonavis-adult-*": 3,
+							"*-buitreraptor-adult-*": 3,
+							"*-adasaurus-adult-*": 3,
 							},
-                        "mincooldown": 1250,
-                        "maxcooldown": 1500,
+                        "mincooldown": 1000,
+                        "maxcooldown": 1250,
                         "minDistByType": {
 							"*-baby-*":1,
-							"*-adult-*": 5,
+							"*-adult-*": 2,
 							},
                         "minVerDistByType": {
 							"*-baby-*":1,
-							"*-adult-*": 3,
+							"*-adult-*": 2,
 							},
                         "attackAngleRangeDeg": 90,
                         "attackDurationMs": 1250,
@@ -619,18 +637,24 @@
 						"animation": "Run",
 						"entityCodesByType": {
 							"*-adult-*":[
-											"player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
+											"player", "chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-											"ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
 
-											"cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
-											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*",  "tame-*",
+											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*",
+
+											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
+
+											"cervidae-*", "dinornithidae-*", "caninae-*", "cervinae-*", "bovinae-*", "vombatidae-*", "capreolinae-*",
+											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*", "tame-*",
 											"chelonoidis-*",
 										],
 							"*-baby-*":[
 											"player","chicken-*","gazelle-*","goat-*","sheep-*","pig-*","hare-*","deer-*","raccoon-*","moose-*","wolf-pup",
 
-											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*",
+
+											"macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
 
 											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
 
@@ -645,29 +669,34 @@
 						"belowTempSeekingRange": 30,
 						"movespeedByType": {
 							"*-baby-*":0.035,
-							"*-tyrannosaurus-adult-*":0.065,
-							"*-tarbosaurus-adult-*": 0.07,
-							"*-nanuqsaurus-adult-*": 0.085,
-							"*-albertosaurus-adult-*": 0.075,
-							"*-gorgosaurus-adult-*": 0.08,
-							"*-alioramus-adult-*": 0.09,
-							"*-qianzhousaurus-adult-*": 0.08,
+							"*-utahraptor-adult-*":0.065,
+							"*-dakotaraptor-adult-*":0.065,
+							"*-deinonychus-adult-*":0.065,
+							"*-velociraptor-adult-*":0.065,
+							"*-achillobator-adult-*":0.065,
+							"*-austroraptor-adult-*":0.065,
+							"*-saurornitholestes-adult-*":0.065,
+							"*-rahonavis-adult-*":0.065,
+							"*-buitreraptor-adult-*":0.065,
+							"*-adasaurus-adult-*":0.065,
 						},
 						"animationSpeedByType": {
 							"*-baby-*":2.5,
-							"*-tyrannosaurus-adult-*":1.7,
-							"*-tarbosaurus-adult-*": 1.8,
-							"*-nanuqsaurus-adult-*": 1.95,
-							"*-albertosaurus-adult-*": 1.9,
-							"*-gorgosaurus-adult-*": 1.85,
-							"*-alioramus-adult-*": 2,
-							"*-qianzhousaurus-adult-*": 1.85,
+							"*-utahraptor-adult-*":1.0,
+							"*-dakotaraptor-adult-*":1.0,
+							"*-deinonychus-adult-*":1.0,
+							"*-velociraptor-adult-*":1.0,
+							"*-achillobator-adult-*":1.0,
+							"*-austroraptor-adult-*":1.0,
+							"*-saurornitholestes-adult-*":1.0,
+							"*-rahonavis-adult-*":1.0,
+							"*-buitreraptor-adult-*":1.0,
+							"*-adasaurus-adult-*":1.0,
 						},
 						"soundByType": {"*-tyrannosaurus-adult-*":"creature/stomp","*-tarbosaurus-adult-*":"creature/stomp"},
 						"whenNotInEmotionState": "fleeondamage|saturated",
 						"leapAtTargetByType":{
-							"*-baby-*":true,
-							"*-adult-*":false,
+							"*":true,
                         },
 						"leapAnimation":"Leap",
 					},
@@ -676,18 +705,24 @@
 						"animation": "Run",
 						"entityCodesByType": {
 							"*-adult-*":[
-											"player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
+											"player", "chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-											"ceratopsidae-*","spinosauridae-*","ankylosauria-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
 
-											"cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
-											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*",  "tame-*",
+											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*",
+
+											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
+
+											"cervidae-*", "dinornithidae-*", "caninae-*", "cervinae-*", "bovinae-*", "vombatidae-*", "capreolinae-*",
+											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*", "tame-*",
 											"chelonoidis-*",
 										],
 							"*-baby-*":[
 											"player","chicken-*","gazelle-*","goat-*","sheep-*","pig-*","hare-*","deer-*","raccoon-*","moose-*","wolf-pup",
 
-											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*",
+
+											"macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
 
 											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
 
@@ -695,30 +730,36 @@
 
 											"cervidae-*", "cervinae-*", "bovinae-*", "capreolinae-*", "dinornithidae-*",
 											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "faunling-*", "foal-*", "geodecrab-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*",
-										],
-						},
+									],
+							},
 						"priority": 1.83,
 						"seekingRange": 50,
 						"belowTempSeekingRange": 30,
 						"movespeedByType": {
 							"*-baby-*":0.035,
-							"*-tyrannosaurus-adult-*":0.065,
-							"*-tarbosaurus-adult-*": 0.07,
-							"*-nanuqsaurus-adult-*": 0.085,
-							"*-albertosaurus-adult-*": 0.075,
-							"*-gorgosaurus-adult-*": 0.08,
-							"*-alioramus-adult-*": 0.09,
-							"*-qianzhousaurus-adult-*": 0.08,
+							"*-utahraptor-adult-*":0.065,
+							"*-dakotaraptor-adult-*":0.065,
+							"*-deinonychus-adult-*":0.065,
+							"*-velociraptor-adult-*":0.065,
+							"*-achillobator-adult-*":0.065,
+							"*-austroraptor-adult-*":0.065,
+							"*-saurornitholestes-adult-*":0.065,
+							"*-rahonavis-adult-*":0.065,
+							"*-buitreraptor-adult-*":0.065,
+							"*-adasaurus-adult-*":0.065,
 						},
 						"animationSpeedByType": {
 							"*-baby-*":2.5,
-							"*-tyrannosaurus-adult-*":1.7,
-							"*-tarbosaurus-adult-*": 1.8,
-							"*-nanuqsaurus-adult-*": 1.95,
-							"*-albertosaurus-adult-*": 1.9,
-							"*-gorgosaurus-adult-*": 1.85,
-							"*-alioramus-adult-*": 2,
-							"*-qianzhousaurus-adult-*": 1.85,
+							"*-utahraptor-adult-*":1.0,
+							"*-dakotaraptor-adult-*":1.0,
+							"*-deinonychus-adult-*":1.0,
+							"*-velociraptor-adult-*":1.0,
+							"*-achillobator-adult-*":1.0,
+							"*-austroraptor-adult-*":1.0,
+							"*-saurornitholestes-adult-*":1.0,
+							"*-rahonavis-adult-*":1.0,
+							"*-buitreraptor-adult-*":1.0,
+							"*-adasaurus-adult-*":1.0,
 						},
 						"soundByType": {"*-tyrannosaurus-adult-*":"creature/stomp","*-tarbosaurus-adult-*":"creature/stomp"},
 						"whenInEmotionState": "aggressiveondamage|aggressivearoundentities",
@@ -733,15 +774,30 @@
 						"priority": 1,
 						"movespeedByType": {
 							"*-baby-*":0.008,
-							"*-tyrannosaurus-adult-*":0.03,
-							"*-tarbosaurus-adult-*": 0.020,
-							"*-nanuqsaurus-adult-*": 0.015,
-							"*-albertosaurus-adult-*": 0.025,
-							"*-gorgosaurus-adult-*": 0.023,
-							"*-alioramus-adult-*": 0.020,
-							"*-qianzhousaurus-adult-*": 0.023,
+							"*-utahraptor-adult-*":0.023,
+							"*-dakotaraptor-adult-*":0.023,
+							"*-deinonychus-adult-*":0.023,
+							"*-velociraptor-adult-*":0.023,
+							"*-achillobator-adult-*":0.023,
+							"*-austroraptor-adult-*":0.023,
+							"*-saurornitholestes-adult-*":0.023,
+							"*-rahonavis-adult-*":0.023,
+							"*-buitreraptor-adult-*":0.023,
+							"*-adasaurus-adult-*":0.023,
 						},
-						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.25},
+						"animationSpeedByType": {
+							"*-baby-*":2.25,
+							"*-utahraptor-adult-*":1.0,
+							"*-dakotaraptor-adult-*":1.0,
+							"*-deinonychus-adult-*":1.0,
+							"*-velociraptor-adult-*":1.0,
+							"*-achillobator-adult-*":1.0,
+							"*-austroraptor-adult-*":1.0,
+							"*-saurornitholestes-adult-*":1.0,
+							"*-rahonavis-adult-*":1.0,
+							"*-buitreraptor-adult-*":1.0,
+							"*-adasaurus-adult-*":1.0,
+						},
 						"priorityForCancel": 1.35,
 						"chance": 0.005,
 						"animation": "Walk",
@@ -878,9 +934,33 @@
                         ],
                         "priorityByType": {"*-adult-*":1,"*-baby-*":1.8,},
 
-                        "seekingRange": 5,
-                        "movespeedByType": {"*-adult-*":0.05,"*-baby-*":0.035},
-						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.5},
+                        "seekingRange": 10,
+                        "movespeedByType": {
+							"*-baby-*":0.035,
+							"*-utahraptor-adult-*":0.065,
+							"*-dakotaraptor-adult-*":0.065,
+							"*-deinonychus-adult-*":0.065,
+							"*-velociraptor-adult-*":0.065,
+							"*-achillobator-adult-*":0.065,
+							"*-austroraptor-adult-*":0.065,
+							"*-saurornitholestes-adult-*":0.065,
+							"*-rahonavis-adult-*":0.065,
+							"*-buitreraptor-adult-*":0.065,
+							"*-adasaurus-adult-*":0.065,
+						},
+						"animationSpeedByType": {
+							"*-baby-*":2.5,
+							"*-utahraptor-adult-*":1.0,
+							"*-dakotaraptor-adult-*":1.0,
+							"*-deinonychus-adult-*":1.0,
+							"*-velociraptor-adult-*":1.0,
+							"*-achillobator-adult-*":1.0,
+							"*-austroraptor-adult-*":1.0,
+							"*-saurornitholestes-adult-*":1.0,
+							"*-rahonavis-adult-*":1.0,
+							"*-buitreraptor-adult-*":1.0,
+							"*-adasaurus-adult-*":1.0,
+						},
 						"whenInEmotionState":"fleeondamage",
 
                     },
@@ -897,10 +977,35 @@
 
                         "macronaria-argentinosaurus-adult-*","macronaria-patagotitan-adult-*","macronaria-dreadnoughtus-adult-*","macronaria-futalognkosaurus-adult-*","macronaria-brachiosaurus-adult-*","macronaria-giraffatitan-adult-*","macronaria-diamantinasaurus-adult-*","macronaria-europatitan-adult-*","macronaria-antarctosaurus-adult-*","macronaria-ruyangosaurus-adult-*","macronaria-camarasaurus-adult-*","macronaria-bruhathkayosaurus-adult-*","macronaria-malawisaurus-adult-*","macronaria-rapetosaurus-adult-*","macronaria-ampelosaurus-adult-*",
 
+						"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
+
                         "elephantidae-*", "cervidae-*","pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "ursidae-*",
                         "cockatrice-*", "direwolf-*", "golem-*", "hellboar-*",
                         ],
                         "priorityByType": {"*-adult-*":0,"*-baby-*":1.8,},
+                        "seekingRange": 25,
+                        "movespeedByType": {"*-adult-*":0.05,"*-baby-*":0.035},
+						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.5},
+
+                    },
+                    {
+                        "code": "fleeentity",
+                        "animation": "Run",
+                        "entityCodes": [
+
+                        "ceratopsidae-triceratops-adult-*", "ceratopsidae-pentaceratops-adult-*", "ceratopsidae-styracosaurus-adult-*", "ceratopsidae-centrosaurus-adult-*", "ceratopsidae-nasutoceratops-adult-*", "ceratopsidae-pachyrhinosaurus-adult-*",
+
+                        "ankylosauria-ankylosaurus-adult-*","ankylosauria-tarchia-adult-*","ankylosauria-euoplocephalus-adult-*","ankylosauria-edmontonia-adult-*","ankylosauria-ankylosaurus-adult-*","ankylosauria-pinacosaurus-adult-*","ankylosauria-antarctopelta-adult-*","ankylosauria-struthiosaurus-adult-*",
+
+                        "spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
+
+                        "macronaria-argentinosaurus-adult-*","macronaria-patagotitan-adult-*","macronaria-dreadnoughtus-adult-*","macronaria-futalognkosaurus-adult-*","macronaria-brachiosaurus-adult-*","macronaria-giraffatitan-adult-*","macronaria-diamantinasaurus-adult-*","macronaria-europatitan-adult-*","macronaria-antarctosaurus-adult-*","macronaria-ruyangosaurus-adult-*","macronaria-camarasaurus-adult-*","macronaria-bruhathkayosaurus-adult-*","macronaria-malawisaurus-adult-*","macronaria-rapetosaurus-adult-*","macronaria-ampelosaurus-adult-*",
+
+						"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
+
+
+                        ],
+                        "priorityByType": {"*-adult-*":1,"*-baby-*":0,},
                         "seekingRange": 25,
                         "movespeedByType": {"*-adult-*":0.05,"*-baby-*":0.035},
 						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.5},
@@ -927,7 +1032,7 @@
 						"animation": "Run",
 						"priority": 1.4,
 						"entityCodeByType": {
-							"*-baby-*": "tyrannosauridae-{type}-adult-female"},
+							"*-baby-*": "dromaeosauridae-{type}-adult-female"},
 						"movespeedByType": {"*-adult-*":0.05,"*-baby-*":0.035},
 						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.5},
 						"maxDistance": 12,
@@ -938,8 +1043,8 @@
 				]
             },
 
-			{"code": "pettable","minGeneration": 5},
-			{"code": "ropetieable","minGeneration": 8},
+			{"code": "pettable","minGeneration": 3},
+			{"code": "ropetieable","minGeneration": 3},
 
         ],
 	"spawnconditions": {
@@ -952,9 +1057,9 @@
 				"*-baby-*":{ "dist": "uniform","avg": 3,"var": 5},
 			},
 			"companionsByType":{
-				"*-adult-male":["tyrannosauridae:tyrannosauridae-{type}-adult-male"],
-				"*-adult-female":["tyrannosauridae:tyrannosauridae-{type}-adult-male", "tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male"],
-				"*-baby-*":["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male"],
+				"*-adult-male":["dromaeosauridae:dromaeosauridae-{type}-adult-male"],
+				"*-adult-female":["dromaeosauridae:dromaeosauridae-{type}-adult-male", "dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male","dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male"],
+				"*-baby-*":["dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male","dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male"],
 			},
 
 		},
@@ -978,14 +1083,14 @@
 				"*-baby-*":{ "dist": "uniform","avg": 3,"var": 5},
 			},
 			"companionsByType":{
-				"*-adult-male":["tyrannosauridae:tyrannosauridae-{type}-adult-male"],
-				"*-adult-female":["tyrannosauridae:tyrannosauridae-{type}-adult-male", "tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male"],
-				"*-baby-*":["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male"],
+				"*-adult-male":["dromaeosauridae:dromaeosauridae-{type}-adult-male"],
+				"*-adult-female":["dromaeosauridae:dromaeosauridae-{type}-adult-male", "dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male","dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male"],
+				"*-baby-*":["dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male","dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-male"],
 			},
 		}
 	},
     "spawnconditionsByType": {
-			"*-tyrannosaurus-adult-*": {
+			"*-adult-*": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 35,
@@ -998,85 +1103,6 @@
 					"maxY": 1.6
 				},
 			},
-			"*-tarbosaurus-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 40,
-					"minRain": 0.2,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.2,
-					"maxForest": 0.6,
-					"maxShrubs": 0.8,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-			},
-			"*-nanuqsaurus-adult-*": {
-				"climate": {
-					"minTemp": -10,
-					"maxTemp": 20,
-					"minRain": 0.5,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 1.0,
-					"maxY": 1.7
-				},
-			},
-			"*-albertosaurus-adult-*": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.6,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-			},
-			"*-gorgosaurus-adult-*": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.6,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-			},
-			"*-alioramus-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 38,
-					"minRain": 0.2,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.2,
-					"maxForest": 0.5,
-					"maxShrubs": 0.8,
-					"minY": 0.9,
-					"maxY": 1.5
-				},
-			},
-			"*-qianzhousaurus-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 38,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.5
-				},
-			},
-		}
     },
     "soundsByType": {
 		"*-adult-*":{
