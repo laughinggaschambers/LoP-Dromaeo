@@ -1316,7 +1316,7 @@
 													"faces": {
 														"north": { "texture": "#utahraptor-adult", "uv": [ 11.0, 55.0, 24.0, 59.5 ] },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 6.0, 29.0, 11.0, 33.5 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 14.0, 55.0, 18.5, 68.0 ], "rotation": 270 },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 12.0, 55.0, 25.0, 59.0 ], "rotation": 180 },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 250.0, 0.0, 255.0, 4.5 ] },
 														"up": { "texture": "#utahraptor-adult", "uv": [ 10.0, 39.5, 23.0, 44.5 ], "rotation": 180, "snapUv": false },
 														"down": { "texture": "#utahraptor-adult", "uv": [ 74.0, 6.0, 87.0, 11.0 ], "snapUv": false }
@@ -1335,7 +1335,7 @@
 																"east": { "texture": "#utahraptor-adult", "uv": [ 250.0, 1.0, 254.5, 3.0 ] },
 																"south": { "texture": "#utahraptor-adult", "uv": [ 11.0, 54.0, 24.0, 56.0 ] },
 																"west": { "texture": "#utahraptor-adult", "uv": [ 251.0, 4.0, 255.5, 6.0 ] },
-																"up": { "texture": "#utahraptor-adult", "uv": [ 12.0, 40.0, 25.0, 44.5 ], "rotation": 180 },
+																"up": { "texture": "#utahraptor-adult", "uv": [ 12.0, 40.0, 25.0, 44.0 ], "rotation": 180 },
 																"down": { "texture": "#utahraptor-adult", "uv": [ 247.0, 1.0, 260.0, 5.5 ] }
 															}
 														},
@@ -2122,8 +2122,8 @@
 														"east": { "texture": "#utahraptor-adult", "uv": [ 42.0, 4.0, 41.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
 														"south": { "texture": "#utahraptor-adult", "uv": [ 40.0, 1.0, 41.0, 2.0 ] },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 44.0, 1.0, 45.0, 2.0 ] },
-														"up": { "texture": "#utahraptor-adult", "uv": [ 41.0, 0.0, 41.5, 1.5 ], "rotation": 270 },
-														"down": { "texture": "#utahraptor-adult", "uv": [ 41.0, 2.0, 41.5, 3.5 ], "rotation": 270 }
+														"up": { "texture": "#utahraptor-adult", "uv": [ 41.0, 0.0, 42.0, 1.0 ], "rotation": 270 },
+														"down": { "texture": "#utahraptor-adult", "uv": [ 41.0, 2.0, 42.0, 3.0 ], "rotation": 270 }
 													}
 												},
 												{
@@ -7895,8 +7895,8 @@
 			"name": "Die",
 			"code": "die",
 			"quantityframes": 40,
-			"onActivityStopped": "Rewind",
-			"onAnimationEnd": "Repeat",
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Hold",
 			"keyframes": [
 				{
 					"frame": 0,

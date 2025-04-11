@@ -1,8 +1,8 @@
 {
-	"code": "tyrannosauridae",
+	"code": "dromaeosauridae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "type","states": ["utahraptor","dakotaraptor","achillobator","austroraptor","deinonychus","dromaeosaurus","adasaurus","velociraptor","saurornitholestes","atrociraptor","pyroraptor","buitreraptor","microraptor","rahonavis",]},
 		{"code": "age", "states": ["egg"] },
 		{"code": "state", "states": ["raw"] }
 	],
@@ -25,10 +25,10 @@
 	"weightByType": {
 		"*": 1
 	},
-	"drops": [{ "type": "item", "code": "creature-tyrannosauridae-{type}-egg-raw" }],
+	"drops": [{ "type": "item", "code": "creature-dromaeosauridae-{type}-egg-raw" }],
 	"attributes": {
 		"handbook": {
-			"groupcode": "creaturegroup-tyrannosauridae"
+			"groupcode": "creaturegroup-dromaeosauridae"
 		}
 	},
 	"client": {
@@ -62,7 +62,7 @@
 			{ 
 				"code": "grow", 
 				"hoursToGrow": 160,
-				"adultEntityCodesByType": {"*": ["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-female"]}
+				"adultEntityCodesByType": {"*": ["dromaeosauridae:dromaeosauridae-{type}-baby-female","dromaeosauridae:dromaeosauridae-{type}-baby-female"]}
 				},
 			{
 				"code": "taskai",
@@ -90,7 +90,7 @@
 				"maxQuantity": 1,
 				"spawnCapPlayerScaling": 0.0,
 				"maxQuantityByGroup": {
-					"code": "tyrannosauridae-*",
+					"code": "dromaeosauridae-*",
 					"maxQuantity": 1
 				},
 				"chanceByType": {

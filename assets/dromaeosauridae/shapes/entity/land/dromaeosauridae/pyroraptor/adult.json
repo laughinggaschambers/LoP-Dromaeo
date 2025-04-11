@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/LegL,Root/ArmR,Root/Main/Torso/Neck/Feathers9,Root/Torso/Neck/Head/Eye Slot/Top Jaw/Upper Lip,Root/Main/Torso/Neck/Feathers3,Root/Main/Torso/Feathers2,Root/Main/Body/Feathers16,Root/Main/Body/Feathers17,Root/Main/Body/Feathers18,Root/LegR,Root/ArmL3/Claw1,Root/Main/Torso/Feathers6,Root/Body,Root/Main/Torso/Feathers12,Root/Main/Body Back/Tail/Tail2/Tail3/Feathers25,Root/Torso,Root/Upper Lip,Root/Main/Body Back/Feathers20,Root/Main/Body Back/Tail/Tail2/Tail3/Tail4/Feathers25,Root/Main/Body Back/Feathers22,Root/Main/Body Back/Feathers21,Root/LegL3,Root/LegL/LegL2/ChinL/Toe,Root/Main/Body/Feathers21,Root/LegL/LegL2/ChinL/Toe3,Root/Body Back,Root/LegL/LegL2/ChinL/Toe5,Root/Tail,Root/Body Back/LegR/LegR2/ChinR/Toe13,Root/Torso/Neck/Head/Lower Jaw,Root/Tail5,Root/Lower Jaw,Root/ArmL2/ArmL4,Root/Body Back/LegR/LegR2/ChinR/FootR/Toe13,Root/Tail2,Root/Tail3,Root/Tail4,Root/Head,Root/Neck,Root/Head/Lower Jaw/Lower Jaw2,Root/ChinL,Root/Main/Torso/Neck/Head/Eye Slot/Teeth9,Root/Main/Torso/Neck/Head/Eye Slot/Teeth7,Root/Main/Torso/Neck/Head/Eye Slot/Teeth5,Root/Main/Torso/Neck/Head/Eye Slot/Teeth3,Root/ArmL2,Root/ArmL3,Root/ArmL,Root/Top Jaw,Root/LegL3/LegL4/ChinL3/FootL2/Toe9,Root/Eye Slot,Root/Main/Torso/Neck/Head/Eye Slot/Teeth11,Root/LegL3/LegL4/ChinL3/FootL2/Toe7",
+		"collapsedPaths": ",Root/LegL,Root/ArmR,Root/Main/Torso/Neck/Feathers9,Root/Torso/Neck/Head/Eye Slot/Top Jaw/Upper Lip,Root/Main/Torso/Feathers2,Root/Main/Body/Feathers16,Root/Main/Body/Feathers17,Root/Main/Body/Feathers18,Root/LegR,Root/ArmL3/Claw1,Root/Main/Torso/Feathers6,Root/Body,Root/Main/Torso/Feathers12,Root/Main/Body Back/Tail/Tail2/Tail3/Feathers25,Root/Torso,Root/Upper Lip,Root/Main/Body Back/Feathers20,Root/Main/Body Back/Tail/Tail2/Tail3/Tail4/Feathers25,Root/Main/Body Back/Feathers22,Root/Main/Body Back/Feathers21,Root/LegL3,Root/LegL/LegL2/ChinL/Toe,Root/Main/Body/Feathers21,Root/LegL/LegL2/ChinL/Toe3,Root/Body Back,Root/LegL/LegL2/ChinL/Toe5,Root/Tail,Root/Body Back/LegR/LegR2/ChinR/Toe13,Root/Torso/Neck/Head/Lower Jaw,Root/Tail5,Root/Lower Jaw,Root/ArmL2/ArmL4,Root/Body Back/LegR/LegR2/ChinR/FootR/Toe13,Root/Tail2,Root/Tail3,Root/Tail4,Root/Head,Root/Neck,Root/Head/Lower Jaw/Lower Jaw2,Root/ChinL,Root/Main/Torso/Neck/Head/Eye Slot/Teeth9,Root/Main/Torso/Neck/Head/Eye Slot/Teeth7,Root/Main/Torso/Neck/Head/Eye Slot/Teeth5,Root/Main/Torso/Neck/Head/Eye Slot/Teeth3,Root/ArmL2,Root/ArmL3,Root/ArmL,Root/Top Jaw,Root/LegL3/LegL4/ChinL3/FootL2/Toe9,Root/Eye Slot,Root/Main/Torso/Neck/Head/Eye Slot/Teeth11,Root/LegL3/LegL4/ChinL3/FootL2/Toe7",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -1316,7 +1316,7 @@
 													"faces": {
 														"north": { "texture": "#utahraptor-adult", "uv": [ 11.0, 55.0, 18.0, 60.0 ] },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 6.0, 29.0, 11.0, 34.0 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 14.0, 55.0, 19.0, 62.0 ], "rotation": 270 },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 14.0, 55.0, 21.0, 60.0 ], "rotation": 180 },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 250.0, 0.0, 255.0, 5.0 ] },
 														"up": { "texture": "#utahraptor-adult", "uv": [ 10.0, 39.5, 17.0, 44.5 ], "rotation": 180, "snapUv": false },
 														"down": { "texture": "#utahraptor-adult", "uv": [ 74.0, 6.0, 81.0, 11.0 ], "snapUv": false }
@@ -1335,7 +1335,7 @@
 																"east": { "texture": "#utahraptor-adult", "uv": [ 250.0, 1.0, 254.5, 2.5 ] },
 																"south": { "texture": "#utahraptor-adult", "uv": [ 11.0, 54.0, 18.0, 55.5 ] },
 																"west": { "texture": "#utahraptor-adult", "uv": [ 251.0, 4.0, 255.5, 5.5 ] },
-																"up": { "texture": "#utahraptor-adult", "uv": [ 12.0, 40.0, 19.0, 44.5 ], "rotation": 180 },
+																"up": { "texture": "#utahraptor-adult", "uv": [ 12.0, 40.0, 19.0, 44.0 ], "rotation": 180 },
 																"down": { "texture": "#utahraptor-adult", "uv": [ 247.0, 1.0, 254.0, 5.5 ] }
 															}
 														},
@@ -1924,8 +1924,8 @@
 														"east": { "texture": "#utahraptor-adult", "uv": [ 42.0, 4.0, 41.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
 														"south": { "texture": "#utahraptor-adult", "uv": [ 40.0, 1.0, 41.0, 2.0 ] },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 44.0, 1.0, 45.0, 2.0 ] },
-														"up": { "texture": "#utahraptor-adult", "uv": [ 41.0, 0.0, 41.5, 1.5 ], "rotation": 270 },
-														"down": { "texture": "#utahraptor-adult", "uv": [ 41.0, 2.0, 41.5, 3.5 ], "rotation": 270 }
+														"up": { "texture": "#utahraptor-adult", "uv": [ 41.0, 0.0, 42.0, 1.0 ], "rotation": 270 },
+														"down": { "texture": "#utahraptor-adult", "uv": [ 41.0, 2.0, 42.0, 3.0 ], "rotation": 270 }
 													}
 												},
 												{
@@ -3706,7 +3706,7 @@
 													"faces": {
 														"north": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 200.0, 69.0 ] },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 192.5, 69.0 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 193.0, 62.0, 198.0, 69.0 ], "rotation": 180, "autoUv": false },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 194.0, 62.0, 199.0, 69.0 ], "rotation": 180, "autoUv": false },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 198.0, 62.0, 198.5, 69.0 ] },
 														"up": { "texture": "#utahraptor-adult", "uv": [ 193.0, 60.0, 201.0, 60.5 ] },
 														"down": { "texture": "#utahraptor-adult", "uv": [ 193.0, 71.0, 201.0, 71.5 ] }
@@ -3722,7 +3722,7 @@
 													"faces": {
 														"north": { "texture": "#utahraptor-adult", "uv": [ 193.0, 61.0, 198.0, 71.0 ] },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 192.0, 61.0, 193.0, 71.0 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 193.0, 61.0, 198.0, 71.0 ] },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 194.0, 61.0, 198.0, 71.0 ], "autoUv": false },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 198.0, 61.0, 199.0, 71.0 ] },
 														"up": { "texture": "#utahraptor-adult", "uv": [ 193.0, 60.0, 198.0, 61.0 ] },
 														"down": { "texture": "#utahraptor-adult", "uv": [ 193.0, 71.0, 198.0, 72.0 ] }
@@ -3738,7 +3738,7 @@
 													"faces": {
 														"north": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 202.0, 67.0 ] },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 192.5, 67.0 ] },
-														"south": { "texture": "#utahraptor-adult", "uv": [ 193.0, 62.0, 198.0, 69.0 ], "rotation": 180, "autoUv": false },
+														"south": { "texture": "#utahraptor-adult", "uv": [ 194.0, 62.0, 199.0, 69.0 ], "rotation": 180, "autoUv": false },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 198.0, 62.0, 198.5, 67.0 ] },
 														"up": { "texture": "#utahraptor-adult", "uv": [ 193.0, 60.0, 203.0, 60.5 ] },
 														"down": { "texture": "#utahraptor-adult", "uv": [ 193.0, 71.0, 203.0, 71.5 ] }
@@ -3950,7 +3950,7 @@
 													"uv": [ 206.0, 79.0 ],
 													"rotationOrigin": [ -8.8702, 6.49, 1.5 ],
 													"faces": {
-														"north": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 200.0, 69.0 ] },
+														"north": { "texture": "#utahraptor-adult", "uv": [ 194.0, 62.0, 199.0, 69.0 ], "autoUv": false },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 192.5, 69.0 ] },
 														"south": { "texture": "#utahraptor-adult", "uv": [ 193.0, 62.0, 198.0, 69.0 ], "rotation": 180, "autoUv": false },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 198.0, 62.0, 198.5, 69.0 ] },
@@ -3966,7 +3966,7 @@
 													"uv": [ 188.0, 91.0 ],
 													"rotationOrigin": [ -1.87, 4.49, 1.6 ],
 													"faces": {
-														"north": { "texture": "#utahraptor-adult", "uv": [ 193.0, 61.0, 198.0, 71.0 ] },
+														"north": { "texture": "#utahraptor-adult", "uv": [ 194.0, 61.0, 198.0, 71.0 ], "autoUv": false },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 192.0, 61.0, 193.0, 71.0 ] },
 														"south": { "texture": "#utahraptor-adult", "uv": [ 193.0, 61.0, 198.0, 71.0 ] },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 198.0, 61.0, 199.0, 71.0 ] },
@@ -3982,7 +3982,7 @@
 													"uv": [ 206.0, 79.0 ],
 													"rotationOrigin": [ -11.8702, 4.49, 1.6 ],
 													"faces": {
-														"north": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 202.0, 67.0 ] },
+														"north": { "texture": "#utahraptor-adult", "uv": [ 194.0, 62.0, 200.0, 67.0 ], "autoUv": false },
 														"east": { "texture": "#utahraptor-adult", "uv": [ 192.0, 62.0, 192.5, 67.0 ] },
 														"south": { "texture": "#utahraptor-adult", "uv": [ 193.0, 62.0, 198.0, 69.0 ], "rotation": 180, "autoUv": false },
 														"west": { "texture": "#utahraptor-adult", "uv": [ 198.0, 62.0, 198.5, 67.0 ] },
@@ -4964,7 +4964,7 @@
 																	"uv": [ 157.0, 68.0 ],
 																	"rotationOrigin": [ -20.0, 0.9, -3.5 ],
 																	"faces": {
-																		"north": { "texture": "#utahraptor-adult", "uv": [ 110.0, 58.0, 140.0, 58.5 ] },
+																		"north": { "texture": "#utahraptor-adult", "uv": [ 110.0, 58.0, 140.0, 59.0 ], "rotation": 180 },
 																		"east": { "texture": "#utahraptor-adult", "uv": [ 141.0, 27.0, 151.0, 27.5 ] },
 																		"south": { "texture": "#utahraptor-adult", "uv": [ 110.0, 58.0, 140.0, 58.5 ] },
 																		"west": { "texture": "#utahraptor-adult", "uv": [ 121.0, 27.0, 131.0, 27.5 ] },
@@ -4980,9 +4980,9 @@
 																	"uv": [ 177.0, 83.0 ],
 																	"rotationOrigin": [ -10.0, 0.8, -5.0 ],
 																	"faces": {
-																		"north": { "texture": "#utahraptor-adult", "uv": [ 113.0, 58.0, 131.0, 58.5 ], "rotation": 180 },
+																		"north": { "texture": "#utahraptor-adult", "uv": [ 113.0, 58.0, 131.0, 59.0 ], "rotation": 180 },
 																		"east": { "texture": "#utahraptor-adult", "uv": [ 140.0, 27.0, 153.0, 28.0 ] },
-																		"south": { "texture": "#utahraptor-adult", "uv": [ 113.0, 58.0, 131.0, 58.5 ], "rotation": 180 },
+																		"south": { "texture": "#utahraptor-adult", "uv": [ 113.0, 58.0, 131.0, 59.0 ], "rotation": 180 },
 																		"west": { "texture": "#utahraptor-adult", "uv": [ 119.0, 27.0, 132.0, 28.0 ] },
 																		"up": { "texture": "#utahraptor-adult", "uv": [ 114.0, 36.5, 132.0, 47.5 ], "rotation": 180, "autoUv": false, "snapUv": false },
 																		"down": { "texture": "#utahraptor-adult", "uv": [ 114.0, 36.5, 132.0, 47.5 ], "autoUv": false, "snapUv": false }
@@ -7651,8 +7651,8 @@
 			"name": "Die",
 			"code": "die",
 			"quantityframes": 40,
-			"onActivityStopped": "Rewind",
-			"onAnimationEnd": "Repeat",
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Hold",
 			"keyframes": [
 				{
 					"frame": 0,

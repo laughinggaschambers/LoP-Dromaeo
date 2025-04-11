@@ -3,8 +3,8 @@
 	"class": "ItemCreature",
 	"maxstacksize": 32,
 	"variantgroups": [
-		{"code": "family","states": ["tyrannosauridae",]},
-		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "family","states": ["dromaeosauridae",]},
+		{"code": "type","states":["utahraptor","dakotaraptor","achillobator","austroraptor","deinonychus","dromaeosaurus","adasaurus","velociraptor","saurornitholestes","atrociraptor","pyroraptor","buitreraptor","microraptor","rahonavis",]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],
@@ -22,10 +22,10 @@
 	"attributes": {
 		"foodTags": "egg",
 		"nutritionPropsWhenInMealByType": {
-		"*": {"satiety": 100,"foodcategory": "Protein"},
+		"*": {"satiety": 85,"foodcategory": "Protein"},
     },
 	"nutritionPropsByType": {
-		"*-boiled": {"satiety": 90,"foodcategory": "Protein"},
+		"*-boiled": {"satiety": 70,"foodcategory": "Protein"},
 	}},
 	"materialDensity": 200,
 	"guiTransformByType": {
