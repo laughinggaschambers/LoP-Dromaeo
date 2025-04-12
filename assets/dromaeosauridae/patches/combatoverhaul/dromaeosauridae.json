@@ -8,10 +8,10 @@
     "value": {
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
-        "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail2","Tail3","Tail4","Tail5",],
+        "Torso": ["Neck", "Torso", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5",],
         "Head": ["Head", "Top Jaw", "Lower Jaw","Lower Jaw2","Upper Lip","Lower Lip", "Nose", "Eye Slot","Throat"],
         "Arm": ["ArmR","ArmL","ArmR2","ArmL2","ArmR3","ArmL3","ArmR4","ArmL4",],
-        "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "LegL2","LegR2"],
+        "Leg": ["LegL","ChinL","LegR","ChinR", "LegL2","LegR2"],
         "Critical": ["EyeL", "EyeR"],
         "Resistant": []
       }
@@ -26,10 +26,10 @@
     "value": {
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
-        "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail2","Tail3","Tail4","Tail5",],
+        "Torso": ["Neck", "Torso", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5",],
         "Head": ["Head", "Top Jaw", "Lower Jaw","Lower Jaw2","Upper Lip","Lower Lip", "Nose", "Eye Slot","Throat"],
         "Arm": ["ArmR","ArmL","ArmR2","ArmL2","ArmR3","ArmL3","ArmR4","ArmL4",],
-        "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "LegL2","LegR2"],
+        "Leg": ["LegL","ChinL","LegR","ChinR", "LegL2","LegR2"],
         "Critical": ["EyeL", "EyeR"],
         "Resistant": []
       }
