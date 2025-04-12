@@ -148,229 +148,230 @@
 			}
 
 		],
-		"spawnconditions": {
-            "worldgen": {
-                "tryOnlySurface": true,
-                "insideBlockCodes": [
-                    "game:air",
-                    "game:tallgrass-*",
-                    "game:gravel-*",
-                    "game:sand-*",
-                    "game:snowlayer-1",
-                    "game:soil-*"
-                ],
-                "groupSizeByType": {
-					"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
-				},
-                "*":["dromaeosauridae:dromaeosauridae-{type}-adult-female"]},
-
-			"runtime": {
-				"group": "neutral",
-				"tryOnlySurface": true,
-				"maxQuantityByGroup": {"code": "*",	"maxQuantity": 1},
-				"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
-				"TriesPerChunk": { "avg": 0.0, "var": 0 },
-				"mindistancetoplayer": 50,
-				"maxLightLevel": 7,
-				"lightLevelType": "onlyBlockLight",
-				"spawnCapPlayerScaling": 0.0,
-				"groupSizeByType": {
-					"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
-				},
-				"insideBlockCodes": [
-                    "game:air",
-                    "game:tallgrass-*",
-                    "game:gravel-*",
-                    "game:sand-*",
-                    "game:snowlayer-1",
-                    "game:soil-*"
-                ],
-				"companionsByType": {
-				"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female"]}
-			}
 		},
-		"spawnconditionsByType": {
-			"*-utahraptor-adult-*": {
-			"climate": {
-				"minTemp": 5,
-				"maxTemp": 25,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
+	"spawnconditions": {
+		"worldgen": {
+			"tryOnlySurface": true,
+			"insideBlockCodes": [
+				"game:air",
+				"game:tallgrass-*",
+				"game:gravel-*",
+				"game:sand-*",
+				"game:snowlayer-1",
+				"game:soil-*"
+			],
+			"groupSizeByType": {
+				"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 			},
-			"*-dakotaraptor-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 30,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
+			"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female"]},
+
+		"runtime": {
+			"group": "neutral",
+			"tryOnlySurface": true,
+			"maxQuantityByGroup": {"code": "*",	"maxQuantity": 1},
+			"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
+			"TriesPerChunk": { "avg": 0.0, "var": 0 },
+			"mindistancetoplayer": 50,
+			"maxLightLevel": 7,
+			"lightLevelType": "onlyBlockLight",
+			"spawnCapPlayerScaling": 0.0,
+			"groupSizeByType": {
+				"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 			},
-			"*-achillobator-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 35,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-austroraptor-adult-*": {
-			"climate": {
-				"minTemp": 15,
-				"maxTemp": 35,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-deinonychus-adult-*": {
-			"climate": {
-				"minTemp": 20,
-				"maxTemp": 35,
-				"minRain": 0.3,
-				"maxRain": 0.8,
-				"minForestOrShrubs": 0.5,
-				"maxForest": 0.9,
-				"maxShrubs": 0.9,
-				"minY": 0.9,
-				"maxY": 1.7
-			}
-			},
-			"*-dromaeosaurus-adult-*": {
-			"climate": {
-				"minTemp": 5,
-				"maxTemp": 25,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-adasaurus-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 30,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-velociraptor-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 30,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-saurornitholestes-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 30,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-atrociraptor-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 30,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-pyroraptor-adult-*": {
-			"climate": {
-				"minTemp": 10,
-				"maxTemp": 30,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-buitreraptor-adult-*": {
-			"climate": {
-				"minTemp": 15,
-				"maxTemp": 35,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-microraptor-adult-*": {
-			"climate": {
-				"minTemp": 15,
-				"maxTemp": 35,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			},
-			"*-rahonavis-adult-*": {
-			"climate": {
-				"minTemp": 15,
-				"maxTemp": 35,
-				"minRain": 0.2,
-				"maxRain": 0.6,
-				"minForestOrShrubs": 0.3,
-				"maxForest": 0.7,
-				"maxShrubs": 0.7,
-				"minY": 0.9,
-				"maxY": 1.6
-			}
-			}
-	}
+			"insideBlockCodes": [
+				"game:air",
+				"game:tallgrass-*",
+				"game:gravel-*",
+				"game:sand-*",
+				"game:snowlayer-1",
+				"game:soil-*"
+			],
+			"companionsByType": {
+			"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female"]}
+		}
+	},
+	"spawnconditionsByType": {
+		"*-utahraptor-adult-*": {
+		"climate": {
+			"minTemp": 5,
+			"maxTemp": 25,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-dakotaraptor-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 30,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-achillobator-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 35,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-austroraptor-adult-*": {
+		"climate": {
+			"minTemp": 15,
+			"maxTemp": 35,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-deinonychus-adult-*": {
+		"climate": {
+			"minTemp": 20,
+			"maxTemp": 35,
+			"minRain": 0.3,
+			"maxRain": 0.8,
+			"minForestOrShrubs": 0.5,
+			"maxForest": 0.9,
+			"maxShrubs": 0.9,
+			"minY": 0.9,
+			"maxY": 1.7
+		}
+		},
+		"*-dromaeosaurus-adult-*": {
+		"climate": {
+			"minTemp": 5,
+			"maxTemp": 25,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-adasaurus-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 30,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-velociraptor-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 30,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-saurornitholestes-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 30,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-atrociraptor-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 30,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-pyroraptor-adult-*": {
+		"climate": {
+			"minTemp": 10,
+			"maxTemp": 30,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-buitreraptor-adult-*": {
+		"climate": {
+			"minTemp": 15,
+			"maxTemp": 35,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-microraptor-adult-*": {
+		"climate": {
+			"minTemp": 15,
+			"maxTemp": 35,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		},
+		"*-rahonavis-adult-*": {
+		"climate": {
+			"minTemp": 15,
+			"maxTemp": 35,
+			"minRain": 0.2,
+			"maxRain": 0.6,
+			"minForestOrShrubs": 0.3,
+			"maxForest": 0.7,
+			"maxShrubs": 0.7,
+			"minY": 0.9,
+			"maxY": 1.6
+		}
+		}
+	},
 }

@@ -29,9 +29,7 @@
 	"client": {
 		"renderer": "Shape",
 		"shapeByType": {"*": { "base": "entity/carcass-medium" }},
-		"sizeByType": {
-			"*": 1.0
-		},
+		"sizeByType": {"*": 1.0},
 		"behaviors": [
 			{ "code": "repulseagents" },
 			{
