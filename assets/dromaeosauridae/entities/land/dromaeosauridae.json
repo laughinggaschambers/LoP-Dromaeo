@@ -45,10 +45,10 @@
 	"behaviorConfigs": {
 		"rideableaccessories": {
 			"wearableSlots": [
-				{"code": "head", "forCategoryCodes": [], "attachmentPointCode": "HeadAP" },
+				{"code": "head", "forCategoryCodes": ["dromaeobridle"], "attachmentPointCode": "HeadAP" },
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
-				{"code": "middleback", "forCategoryCodes": [], "attachmentPointCode": "MidAP","stepParentTo": {"": { "elementName": "Torso" }} },
+				{"code": "middleback", "forCategoryCodes": ["dromaeosaddle"], "attachmentPointCode": "MidAP","stepParentTo": {"": { "elementName": "Torso" }} },
 			]
 		},
 		"selectionboxes": {
@@ -93,7 +93,7 @@
 				"swim": {
 					"animation": "Swim",
 					"animationSpeed": 1,
-					"movespeed": 0.02,
+					"movespeed": 0.003,
 					"weight": 10,
 					"blendMode": "Average",
 					"riderAnim": {
@@ -124,7 +124,9 @@
 					"animation": "Walk",
 					"weight": 10,
 						"movespeedByType": {
-							"*-adult-*": 0.007,
+							"*-utahraptor-adult-*":0.013,
+							"*-dakotaraptor-adult-*":0.012,
+							"*-achillobator-adult-*":0.011,
 						},
 						"animationSpeedByType": {
 							"*": 1
@@ -158,7 +160,9 @@
 					"animation": "Walk",
 					"weight": 10,
 						"movespeedByType": {
-							"*-adult-*": 0.007,
+							"*-utahraptor-adult-*":0.013,
+							"*-dakotaraptor-adult-*":0.012,
+							"*-achillobator-adult-*":0.011,
 						},
 						"animationSpeedByType": {
 							"*": 1
@@ -194,24 +198,14 @@
 					"animation": "Run",
 					"weight": 10,
 						"movespeedByType": {
-							"*-baby-*":0.035,
-							"*-tyrannosaurus-adult-*":0.065,
-							"*-tarbosaurus-adult-*": 0.07,
-							"*-nanuqsaurus-adult-*": 0.085,
-							"*-albertosaurus-adult-*": 0.075,
-							"*-gorgosaurus-adult-*": 0.08,
-							"*-alioramus-adult-*": 0.09,
-							"*-qianzhousaurus-adult-*": 0.08,
+							"*-utahraptor-adult-*":0.075,
+							"*-dakotaraptor-adult-*":0.07,
+							"*-achillobator-adult-*":0.065,
 						},
 						"animationSpeedByType": {
-							"*-baby-*":2.5,
-							"*-tyrannosaurus-adult-*":1.7,
-							"*-tarbosaurus-adult-*": 1.8,
-							"*-nanuqsaurus-adult-*": 1.95,
-							"*-albertosaurus-adult-*": 1.9,
-							"*-gorgosaurus-adult-*": 1.85,
-							"*-alioramus-adult-*": 2,
-							"*-qianzhousaurus-adult-*": 1.85,
+							"*-utahraptor-adult-*":2,
+							"*-dakotaraptor-adult-*":2,
+							"*-achillobator-adult-*":2,
 						},
 					"blendMode": "Average",
 					"riderAnim": {
@@ -354,10 +348,10 @@
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
 			{"code": "ropetieable","minGeneration": 3},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
         ],
         "animations": [
             {"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -381,10 +375,10 @@
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 350,"maxTurnAnglePerSec": 650}},
         "behaviors": [
 			{"code": "mortallywoundable", "whenBelowHealth": 30, "enabledByType": { "*-baby-*": false, "*": false},"minGeneration": 2 },
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 10 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "ownable", "enabledByType": { "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": { "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeightByType":
 				{

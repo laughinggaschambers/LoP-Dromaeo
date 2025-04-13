@@ -3482,7 +3482,7 @@
 							"uv": [ 190.0, 71.0 ],
 							"rotationOrigin": [ 7.5, 7.0, 9.3 ],
 							"rotationX": -25.0,
-							"rotationZ": -39.0,
+							"rotationZ": -75.0,
 							"faces": {
 								"north": { "texture": "#utahraptor-adult", "uv": [ 184.0, 42.0, 187.0, 50.0 ] },
 								"east": { "texture": "#utahraptor-adult", "uv": [ 183.0, 42.0, 184.0, 50.0 ] },
@@ -3728,7 +3728,7 @@
 							"uv": [ 182.0, 69.0 ],
 							"rotationOrigin": [ 7.5, 7.0, -0.7 ],
 							"rotationX": 25.0,
-							"rotationZ": -39.0,
+							"rotationZ": -75.0,
 							"faces": {
 								"north": { "texture": "#utahraptor-adult", "uv": [ 184.0, 42.0, 187.0, 50.0 ] },
 								"east": { "texture": "#utahraptor-adult", "uv": [ 183.0, 42.0, 184.0, 50.0 ] },

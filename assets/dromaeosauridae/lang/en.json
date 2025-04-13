@@ -1,7 +1,18 @@
 {
-  "game:creaturegroup-tyrannosauridae": "Dromaeosauridae",
+  "game:creaturegroup-dromaeosauridae": "Dromaeosauridae",
 
-    "item-creature-dromaeosauridae-utahraptor-adult-male": "Utahraptor (Male)",
+  "item-dromaeowearable-saddle": "Saddle made for dromaeosaurids",
+  "item-dromaeowearable-bridle1": "Bridle made of dromaeosaurids",
+  "itemdesc-dromaeowearable-bridle1": "Useful for precise, short distance travel",
+  "item-dromaeowearable-bridle2": "Bridle made of dromaeosaurids",
+  "itemdesc-dromaeowearable-bridle2": "Useful for long distance travel",
+  "item-handbooktitle-dromaeowearable-bridle2": "How to Use",
+  "item-handbooktext-dromaeowearable-bridle2": "When your mount is wearing a curb bit, you need only press forward once, rather than hold it down, to move.",
+  "creature-dromaeowearable-*-selectionbox-HeadAP": "Bridle slot",
+  "creature-dromaeowearable-*-selectionbox-MidAP": "Saddle",
+
+
+  "item-creature-dromaeosauridae-utahraptor-adult-male": "Utahraptor (Male)",
   "item-creature-dromaeosauridae-utahraptor-adult-female": "Utahraptor (Female)",
   "item-creature-dromaeosauridae-utahraptor-baby-male": "Utahraptor (Juvenile Male)",
   "item-creature-dromaeosauridae-utahraptor-baby-female": "Utahraptor (Juvenile Female)",
