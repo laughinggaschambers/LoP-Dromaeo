@@ -1171,6 +1171,11 @@
 							"code": "Rider",
 							"posX": "9.0","posY": "7.0","posZ": "6.0",
 							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+						},
+						{
+							"code": "Center",
+							"posX": "0.0","posY": "0.0","posZ": "0.0",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 						}
 					]
 				},

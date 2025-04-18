@@ -163,7 +163,7 @@
 			"groupSizeByType": {
 				"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 			},
-			"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female"]},
+			"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female","dromaeosauridae:dromaeosauridae-{type}-adult-male"]},
 
 		"runtime": {
 			"group": "neutral",
@@ -187,11 +187,11 @@
 				"game:soil-*"
 			],
 			"companionsByType": {
-			"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female"]}
+			"*":["dromaeosauridae:dromaeosauridae-{type}-adult-female","dromaeosauridae:dromaeosauridae-{type}-adult-male"]}
 		}
 	},
 	"spawnconditionsByType": {
-		"*-utahraptor-adult-*": {
+		"*-utahraptor-*": {
 		"climate": {
 			"minTemp": 5,
 			"maxTemp": 25,
@@ -202,9 +202,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-dakotaraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-dakotaraptor-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -215,9 +218,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-achillobator-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-achillobator-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 35,
@@ -228,9 +234,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-austroraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-austroraptor-*": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -241,9 +250,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-deinonychus-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-deinonychus-*": {
 		"climate": {
 			"minTemp": 20,
 			"maxTemp": 35,
@@ -254,9 +266,12 @@
 			"maxShrubs": 0.9,
 			"minY": 0.9,
 			"maxY": 1.7
-		}
 		},
-		"*-dromaeosaurus-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-dromaeosaurus-*": {
 		"climate": {
 			"minTemp": 5,
 			"maxTemp": 25,
@@ -267,9 +282,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-adasaurus-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-adasaurus-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -280,9 +298,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-velociraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-velociraptor-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -293,9 +314,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-saurornitholestes-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-saurornitholestes-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -306,9 +330,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-atrociraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-atrociraptor-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -319,9 +346,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-pyroraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-pyroraptor-*": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -332,9 +362,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-buitreraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-buitreraptor-*": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -345,9 +378,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-microraptor-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-microraptor-*": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -358,9 +394,12 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
 		},
-		"*-rahonavis-adult-*": {
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
+		},
+		"*-rahonavis-*": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -371,7 +410,10 @@
 			"maxShrubs": 0.7,
 			"minY": 0.9,
 			"maxY": 1.6
-		}
+		},
+		"runtime": {
+					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+				}
 		}
 	},
 }
