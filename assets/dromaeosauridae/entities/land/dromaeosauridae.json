@@ -6,7 +6,23 @@
         {"code": "age","states": [ "adult","baby"]},
         {"code": "gender","states": ["male","female"]},
     ],
-    "fallDamageMultiplierByType": { "*-baby-*" :1,"*-adult-*" :2},
+    "fallDamageMultiplierByType": {
+		"*-baby-*" :0.5,
+		"*-utahraptor-adult-*": 1,
+		"*-dakotaraptor-adult-*": 1,
+		"*-achillobator-adult-*": 1,
+		"*-austroraptor-adult-*": 0.5,
+		"*-deinonychus-adult-*": 0.5,
+		"*-dromaeosaurus-adult-*": 0.5,
+		"*-adasaurus-adult-*": 0.5,
+		"*-velociraptor-adult-*": 0.5,
+		"*-saurornitholestes-adult-*": 0.5,
+		"*-atrociraptor-adult-*": 0.5,
+		"*-pyroraptor-adult-*": 0.5,
+		"*-buitreraptor-adult-*": 0.5,
+		"*-microraptor-adult-*": 0.5,
+		"*-rahonavis-adult-*": 0.5,
+    },
     "canClimb": true,
     "canClimbAnywhere": true,
     "hitBoxSizeByType": {
@@ -1413,14 +1429,13 @@
 		},
 		"runtime": {
 			"group": "hostile",
-			"TriesPerChunk": { "avg": 0, "var": 0 },
+			"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 },
 			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
 			"chanceByType": {
 				"*-adult-*": 0.00001,"*-baby-*": 0.00000,
 				"*":0.00,
 			},
-			"maxQuantity": 1,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -1450,8 +1465,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-dakotaraptor-adult-*": {
@@ -1466,8 +1481,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-achillobator-adult-*": {
@@ -1482,8 +1497,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-austroraptor-adult-*": {
@@ -1498,8 +1513,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-deinonychus-adult-*": {
@@ -1514,8 +1529,8 @@
 				"minY": 0.9,
 				"maxY": 1.7
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-dromaeosaurus-adult-*": {
@@ -1530,8 +1545,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-adasaurus-adult-*": {
@@ -1546,8 +1561,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-velociraptor-adult-*": {
@@ -1562,8 +1577,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-saurornitholestes-adult-*": {
@@ -1578,8 +1593,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-atrociraptor-adult-*": {
@@ -1594,8 +1609,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-pyroraptor-adult-*": {
@@ -1610,8 +1625,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-buitreraptor-adult-*": {
@@ -1626,8 +1641,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-microraptor-adult-*": {
@@ -1642,8 +1657,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			},
 			"*-rahonavis-adult-*": {
@@ -1658,8 +1673,8 @@
 				"minY": 0.9,
 				"maxY": 1.6
 			},
-			"runtime": {
-					"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 }
+			"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 			}
     },
