@@ -151,7 +151,9 @@
 		},
 	"spawnconditions": {
 		"worldgen": {
+			"chanceByType": {"*-empty": 0.0},
 			"triesPerChunk": { "avg": 0.0, "var": 0},
+			"maxQuantityByGroup": { "code": "dromaeosauridae-*", "maxQuantity": 1 },
 			"tryOnlySurface": true,
 			"insideBlockCodes": [
 				"game:air",
@@ -192,7 +194,7 @@
 		}
 	},
 	"spawnconditionsByType": {
-		"*-utahraptor-*": {
+		"*-utahraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 5,
 			"maxTemp": 25,
@@ -208,7 +210,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-dakotaraptor-*": {
+		"*-dakotaraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -224,7 +226,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-achillobator-*": {
+		"*-achillobator-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 35,
@@ -240,7 +242,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-austroraptor-*": {
+		"*-austroraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -256,7 +258,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-deinonychus-*": {
+		"*-deinonychus-nest-incubating": {
 		"climate": {
 			"minTemp": 20,
 			"maxTemp": 35,
@@ -272,7 +274,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-dromaeosaurus-*": {
+		"*-dromaeosaurus-nest-incubating": {
 		"climate": {
 			"minTemp": 5,
 			"maxTemp": 25,
@@ -288,7 +290,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-adasaurus-*": {
+		"*-adasaurus-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -304,7 +306,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-velociraptor-*": {
+		"*-velociraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -320,7 +322,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-saurornitholestes-*": {
+		"*-saurornitholestes-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -336,7 +338,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-atrociraptor-*": {
+		"*-atrociraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -352,7 +354,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-pyroraptor-*": {
+		"*-pyroraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 10,
 			"maxTemp": 30,
@@ -368,7 +370,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-buitreraptor-*": {
+		"*-buitreraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -384,7 +386,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-microraptor-*": {
+		"*-microraptor-nest-incubating": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
@@ -400,7 +402,7 @@
 					"triesPerChunk": { "avg": 0.001, "var": 0}
 				}
 		},
-		"*-rahonavis-*": {
+		"*-rahonavis-nest-incubating": {
 		"climate": {
 			"minTemp": 15,
 			"maxTemp": 35,
