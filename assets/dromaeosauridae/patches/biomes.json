@@ -5,97 +5,113 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-utahraptor-*": {
-          "biorealm": [
-            "pacific nearctic",
-            "atlantic nearctic",
-          ]
-        },
 
-      "*-dakotaraptor-*": {
-              "biorealm": [
-                "atlantic nearctic",
-              ]
-            },
+      "*-pachycephalosaurus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-achillobator-*": {
-              "biorealm": [
-                "eastern palearctic",
-              ]
-            },
+      "*-platytholus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-austroraptor-*": {
-              "biorealm": [
-                "atlantic neotropic",
-              ]
-            },
+      "*-prenocephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-deinonychus-*": {
-              "biorealm": [
-                "pacific nearctic",
-                "atlantic nearctic",
-                "atlantic neotropic",
-              ]
-            },
+      "*-stegoceras-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-dromaeosaurus-*": {
-              "biorealm": [
-                "pacific nearctic",
-                "atlantic nearctic",
-              ]
-            },
+      "*-hanssuesia-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-adasaurus-*": {
-              "biorealm": [
-                "eastern palearctic",
-              ]
-            },
+      "*-sinocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-velociraptor-*": {
-              "biorealm": [
-                "central palearctic",
-                "eastern palearctic",
-              ]
-            },
+      "*-sphaerotholus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-saurornitholestes-*": {
-              "biorealm": [
-                "pacific nearctic",
-                "atlantic nearctic",
-                "atlantic palearctic",
-              ]
-            },
+      "*-tylocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-atrociraptor-*": {
-              "biorealm": [
-                "pacific nearctic",
-              ]
-            },
+      "*-homalocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-pyroraptor-*": {
-              "biorealm": [
-                "atlantic palearctic",
-              ]
-            },
+      "*-acrotholus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-buitreraptor-*": {
-              "biorealm": [
-                "pacific neotropic",
-                "atlantic neotropic",
-              ]
-            },
+      "*-goyocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-microraptor-*": {
-              "biorealm": [
-                "eastern palearctic",
-              ]
-            },
+      "*-foraminacephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-rahonavis-*": {
-              "biorealm": [
-                "eastern afrotropic",
-              ]
-            },
+      "*-alaskacephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
+
+      "*-colepiocephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
+
+      "*-amtocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
+      "*-wannanosaurus-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
     },
     "dependsOn": [
       {
@@ -109,97 +125,113 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-utahraptor-*": {
-          "biorealm": [
-            "pacific nearctic",
-            "atlantic nearctic",
-          ]
-        },
 
-      "*-dakotaraptor-*": {
-              "biorealm": [
-                "atlantic nearctic",
-              ]
-            },
+      "*-pachycephalosaurus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-achillobator-*": {
-              "biorealm": [
-                "eastern palearctic",
-              ]
-            },
+      "*-platytholus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-austroraptor-*": {
-              "biorealm": [
-                "atlantic neotropic",
-              ]
-            },
+      "*-prenocephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-deinonychus-*": {
-              "biorealm": [
-                "pacific nearctic",
-                "atlantic nearctic",
-                "atlantic neotropic",
-              ]
-            },
+      "*-stegoceras-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-dromaeosaurus-*": {
-              "biorealm": [
-                "pacific nearctic",
-                "atlantic nearctic",
-              ]
-            },
+      "*-hanssuesia-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-adasaurus-*": {
-              "biorealm": [
-                "eastern palearctic",
-              ]
-            },
+      "*-sinocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-velociraptor-*": {
-              "biorealm": [
-                "central palearctic",
-                "eastern palearctic",
-              ]
-            },
+      "*-sphaerotholus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-saurornitholestes-*": {
-              "biorealm": [
-                "pacific nearctic",
-                "atlantic nearctic",
-                "atlantic palearctic",
-              ]
-            },
+      "*-tylocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-atrociraptor-*": {
-              "biorealm": [
-                "pacific nearctic",
-              ]
-            },
+      "*-homalocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-pyroraptor-*": {
-              "biorealm": [
-                "atlantic palearctic",
-              ]
-            },
+      "*-acrotholus-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-buitreraptor-*": {
-              "biorealm": [
-                "pacific neotropic",
-                "atlantic neotropic",
-              ]
-            },
+      "*-goyocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
 
-      "*-microraptor-*": {
-              "biorealm": [
-                "eastern palearctic",
-              ]
-            },
+      "*-foraminacephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
 
-      "*-rahonavis-*": {
-              "biorealm": [
-                "eastern afrotropic",
-              ]
-            },
+      "*-alaskacephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
+
+      "*-colepiocephale-*": {
+        "biorealm": [
+          "pacific nearctic",
+          "atlantic nearctic",
+        ]
+      },
+
+      "*-amtocephale-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
+      "*-wannanosaurus-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
     },
     "dependsOn": [
       {
