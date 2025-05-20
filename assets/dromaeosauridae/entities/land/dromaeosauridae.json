@@ -596,7 +596,7 @@
 
 									"lure-*", "hitch",
 
-									"ceratopsidae-*","spinosauridae-*","ankylosauria-*", "macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+									"ceratopsidae-*","spinosauridae-*","ankylosauria-*", "macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*","stegosauria-*",
 
 									"cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
 									"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "geodecrab-*", "giraffe", "golem-*", "hellboar-*", "horse-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*"
@@ -607,7 +607,7 @@
 
 									"lure-*",
 
-									"ceratopsidae-*","spinosauridae-*","ankylosauria-*", "macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+									"ceratopsidae-*","spinosauridae-*","ankylosauria-*", "macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*","stegosauria-*",
 
 									"cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
 									"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "geodecrab-*", "giraffe", "golem-*", "hellboar-*", "horse-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*"
@@ -751,23 +751,11 @@
 							"*-baby-*":[
 											"chicken-baby","goat-*","sheep-bighorn-lamb","pig-wild-piglet","hare-*","gazelle-*-baby","deer-*-baby","raccoon-*","moose-*-baby","wolf-pup",
 
-											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
-
-											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
-
-											"hadrosauroidea-shangtungosaurus-baby-*","hadrosauroidea-magnapaulia-baby-*","hadrosauroidea-edmontosaurus-baby-*","hadrosauroidea-hadrosaurus-baby-*","hadrosauroidea-saurolophus-baby-*","hadrosauroidea-hypacrosaurus-baby-*","hadrosauroidea-parasaurolophus-baby-*","hadrosauroidea-charonosaurus-baby-*","hadrosauroidea-olorotitan-baby-*","hadrosauroidea-hypsibema-baby-*","hadrosauroidea-gryposaurus-baby-*","hadrosauroidea-lambeosaurus-baby-*","hadrosauroidea-brachylophosaurus-baby-*","hadrosauroidea-corythosaurus-baby-*","hadrosauroidea-maiasaura-baby-*","hadrosauroidea-barsboldia-baby-*","hadrosauroidea-amurosaurus-baby-*","hadrosauroidea-arenysaurus-baby-*","hadrosauroidea-bonapartesaurus-baby-*","hadrosauroidea-pararhabdodon-baby-*","hadrosauroidea-telmatosaurus-baby-*","hadrosauroidea-secernosaurus-baby-*","hadrosauroidea-probactrosaurus-baby-*","hadrosauroidea-acristavus-baby-*","hadrosauroidea-kazaklambia-baby-*","hadrosauroidea-tanius-baby-*","hadrosauroidea-canardia-baby-*",
-
 											"cervidae-*-baby", "cervinae-*-baby", "bovinae-*-baby", "capreolinae-*-baby", "dinornithidae-*-baby",
 											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "foal-*", "scorpion-*", "spider-*", "tame-*", "toad-*",6
 									],
 							"*-rahonavis-*":[
 											"chicken-baby","goat-*","sheep-bighorn-lamb","pig-wild-piglet","hare-*","gazelle-*-baby","deer-*-baby","raccoon-*","moose-*-baby","wolf-pup",
-
-											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
-
-											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
-
-											"hadrosauroidea-shangtungosaurus-baby-*","hadrosauroidea-magnapaulia-baby-*","hadrosauroidea-edmontosaurus-baby-*","hadrosauroidea-hadrosaurus-baby-*","hadrosauroidea-saurolophus-baby-*","hadrosauroidea-hypacrosaurus-baby-*","hadrosauroidea-parasaurolophus-baby-*","hadrosauroidea-charonosaurus-baby-*","hadrosauroidea-olorotitan-baby-*","hadrosauroidea-hypsibema-baby-*","hadrosauroidea-gryposaurus-baby-*","hadrosauroidea-lambeosaurus-baby-*","hadrosauroidea-brachylophosaurus-baby-*","hadrosauroidea-corythosaurus-baby-*","hadrosauroidea-maiasaura-baby-*","hadrosauroidea-barsboldia-baby-*","hadrosauroidea-amurosaurus-baby-*","hadrosauroidea-arenysaurus-baby-*","hadrosauroidea-bonapartesaurus-baby-*","hadrosauroidea-pararhabdodon-baby-*","hadrosauroidea-telmatosaurus-baby-*","hadrosauroidea-secernosaurus-baby-*","hadrosauroidea-probactrosaurus-baby-*","hadrosauroidea-acristavus-baby-*","hadrosauroidea-kazaklambia-baby-*","hadrosauroidea-tanius-baby-*","hadrosauroidea-canardia-baby-*",
 
 											"cervidae-*-baby", "cervinae-*-baby", "bovinae-*-baby", "capreolinae-*-baby", "dinornithidae-*-baby",
 											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "foal-*", "scorpion-*", "spider-*", "tame-*", "toad-*",6
@@ -775,11 +763,6 @@
 							"*-microraptor-*":[
 											"chicken-baby","goat-*","sheep-bighorn-lamb","pig-wild-piglet","hare-*","gazelle-*-baby","deer-*-baby","raccoon-*","moose-*-baby","wolf-pup",
 
-											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
-
-											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
-
-											"hadrosauroidea-shangtungosaurus-baby-*","hadrosauroidea-magnapaulia-baby-*","hadrosauroidea-edmontosaurus-baby-*","hadrosauroidea-hadrosaurus-baby-*","hadrosauroidea-saurolophus-baby-*","hadrosauroidea-hypacrosaurus-baby-*","hadrosauroidea-parasaurolophus-baby-*","hadrosauroidea-charonosaurus-baby-*","hadrosauroidea-olorotitan-baby-*","hadrosauroidea-hypsibema-baby-*","hadrosauroidea-gryposaurus-baby-*","hadrosauroidea-lambeosaurus-baby-*","hadrosauroidea-brachylophosaurus-baby-*","hadrosauroidea-corythosaurus-baby-*","hadrosauroidea-maiasaura-baby-*","hadrosauroidea-barsboldia-baby-*","hadrosauroidea-amurosaurus-baby-*","hadrosauroidea-arenysaurus-baby-*","hadrosauroidea-bonapartesaurus-baby-*","hadrosauroidea-pararhabdodon-baby-*","hadrosauroidea-telmatosaurus-baby-*","hadrosauroidea-secernosaurus-baby-*","hadrosauroidea-probactrosaurus-baby-*","hadrosauroidea-acristavus-baby-*","hadrosauroidea-kazaklambia-baby-*","hadrosauroidea-tanius-baby-*","hadrosauroidea-canardia-baby-*",
 
 											"cervidae-*-baby", "cervinae-*-baby", "bovinae-*-baby", "capreolinae-*-baby", "dinornithidae-*-baby",
 											"capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "foal-*", "scorpion-*", "spider-*", "tame-*", "toad-*",6
@@ -802,6 +785,8 @@
 											"hadrosauroidea-shangtungosaurus-baby-*","hadrosauroidea-magnapaulia-baby-*","hadrosauroidea-edmontosaurus-baby-*","hadrosauroidea-hadrosaurus-baby-*","hadrosauroidea-saurolophus-baby-*","hadrosauroidea-hypacrosaurus-baby-*","hadrosauroidea-parasaurolophus-baby-*","hadrosauroidea-charonosaurus-baby-*","hadrosauroidea-olorotitan-baby-*","hadrosauroidea-hypsibema-baby-*","hadrosauroidea-gryposaurus-baby-*","hadrosauroidea-lambeosaurus-baby-*","hadrosauroidea-brachylophosaurus-baby-*","hadrosauroidea-corythosaurus-baby-*","hadrosauroidea-maiasaura-baby-*","hadrosauroidea-barsboldia-baby-*","hadrosauroidea-amurosaurus-baby-*","hadrosauroidea-arenysaurus-baby-*","hadrosauroidea-bonapartesaurus-baby-*","hadrosauroidea-pararhabdodon-baby-*","hadrosauroidea-telmatosaurus-baby-*","hadrosauroidea-secernosaurus-baby-*","hadrosauroidea-probactrosaurus-baby-*","hadrosauroidea-acristavus-baby-*","hadrosauroidea-kazaklambia-baby-*","hadrosauroidea-tanius-baby-*","hadrosauroidea-canardia-baby-*",
 
 											"carcharodontosauridae-giganotosaurus-baby-*","carcharodontosauridae-carcharodontosaurus-baby-*","carcharodontosauridae-mapusaurus-baby-*","carcharodontosauridae-tyrannotitan-baby-*","carcharodontosauridae-tameryraptor-baby-*","carcharodontosauridae-veterupristisaurus-baby-*","carcharodontosauridae-ulughbegsaurus-baby-*","carcharodontosauridae-siamraptor-baby-*","carcharodontosauridae-shaochilong-baby-*","carcharodontosauridae-concavenator-baby-*","carcharodontosauridae-lusovenator-baby-*","carcharodontosauridae-lajasvenator-baby-*",
+
+											"stegosauria-stegosaurus-baby-*","stegosauria-dacentrurus-baby-*","stegosauria-wuerhosaurus-baby-*","stegosauria-hesperosaurus-baby-*","stegosauria-tuojiangosaurus-baby-*","stegosauria-alcovasaurus-baby-*","stegosauria-miragaia-baby-*","stegosauria-isaberrysaura-baby-*","stegosauria-kentrosaurus-baby-*","stegosauria-huayangosaurus-baby-*","stegosauria-gigantspinosaurus-baby-*","stegosauria-chungkingosaurus-baby-*",
 
 
 											"cervidae-*", "cervinae-*", "bovinae-*", "capreolinae-*", "dinornithidae-*",
@@ -859,6 +844,8 @@
 							"*":[
 								"player",
 								"hadrosauroidea-telmatosaurus-adult-*","hadrosauroidea-secernosaurus-adult-*","hadrosauroidea-probactrosaurus-adult-*","hadrosauroidea-kazaklambia-adult-*",
+
+								"stegosauria-kentrosaurus-adult-*","stegosauria-huayangosaurus-adult-*","stegosauria-gigantspinosaurus-adult-*","stegosauria-chungkingosaurus-adult-*",
 							],
 							},
 						"enabledByType":{
@@ -1143,7 +1130,7 @@
 						],
 						"stopOnNearbyEntityCodes": ["player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-*","hadrosauroidea-*","abelisauridae-*","carcharodontosauridae-*",
+                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-*","hadrosauroidea-*","abelisauridae-*","carcharodontosauridae-*","stegosauria-*",
 
                         "cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
                         "capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*",  "tame-*",
@@ -1167,7 +1154,7 @@
                         ],
                         "stopOnNearbyEntityCodes": ["player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*","stegosauria-*",
 
                         "cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
                         "capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*",  "tame-*",
@@ -1193,7 +1180,7 @@
                             {"fromHour": 12.5,"toHour": 16}
                         ],
                         "stopOnNearbyEntityCodes": ["player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
-                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","macronaria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*","stegosauria-*",
 
                         "cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
                         "capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "giraffe", "hellboar-*", "horse-*", "ostrich-*",  "tame-*",
@@ -1260,7 +1247,7 @@
                         "animation": "Run",
                         "entityCodes":["player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+                        "ceratopsidae-*", "spinosauridae-*","ankylosauria-*","hadrosauroidea-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*","stegosauria-*",
 
                         "cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
                         "capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "geodecrab-*", "giraffe", "golem-*", "hellboar-*", "horse-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*"
@@ -1319,6 +1306,9 @@
                         "spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
                         "macronaria-argentinosaurus-adult-*","macronaria-patagotitan-adult-*","macronaria-dreadnoughtus-adult-*","macronaria-futalognkosaurus-adult-*","macronaria-brachiosaurus-adult-*","macronaria-giraffatitan-adult-*","macronaria-diamantinasaurus-adult-*","macronaria-europatitan-adult-*","macronaria-antarctosaurus-adult-*","macronaria-ruyangosaurus-adult-*","macronaria-camarasaurus-adult-*","macronaria-bruhathkayosaurus-adult-*","macronaria-malawisaurus-adult-*","macronaria-rapetosaurus-adult-*","macronaria-ampelosaurus-adult-*",
+
+                        "stegosauria-stegosaurus-adult-*","stegosauria-dacentrurus-adult-*","stegosauria-wuerhosaurus-adult-*","stegosauria-hesperosaurus-adult-*","stegosauria-tuojiangosaurus-adult-*","stegosauria-alcovasaurus-adult-*","stegosauria-miragaia-adult-*","stegosauria-isaberrysaura-adult-*","stegosauria-kentrosaurus-adult-*","stegosauria-huayangosaurus-adult-*","stegosauria-gigantspinosaurus-adult-*","stegosauria-chungkingosaurus-adult-*",
+
 
 						"tyrannosauridae-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
 
@@ -1383,6 +1373,8 @@
 						"abelisauridae-pycnonemosaurus-adult-*","abelisauridae-ekrixinatosaurus-adult-*","abelisauridae-carnotaurus-adult-*","abelisauridae-chenanisaurus-adult-*","abelisauridae-rajasaurus-adult-*","abelisauridae-abelisaurus-adult-*","abelisauridae-majungasaurus-adult-*","abelisauridae-skorpiovenator-adult-*","abelisauridae-xenotarsosaurus-adult-*","abelisauridae-rahiolisaurus-adult-*","abelisauridae-arcovenator-adult-*","abelisauridae-rugops-adult-*","abelisauridae-aucasaurus-adult-*","abelisauridae-dahalokely-adult-*","abelisauridae-ilokelesia-adult-*","abelisauridae-viavenator-adult-*","abelisauridae-tarascosaurus-adult-*","abelisauridae-thanos-adult-*",
 
 						"carcharodontosauridae-giganotosaurus-adult-*","carcharodontosauridae-carcharodontosaurus-adult-*","carcharodontosauridae-mapusaurus-adult-*","carcharodontosauridae-tyrannotitan-adult-*","carcharodontosauridae-tameryraptor-adult-*","carcharodontosauridae-veterupristisaurus-adult-*","carcharodontosauridae-ulughbegsaurus-adult-*","carcharodontosauridae-siamraptor-adult-*","carcharodontosauridae-shaochilong-adult-*","carcharodontosauridae-concavenator-adult-*","carcharodontosauridae-lusovenator-adult-*","carcharodontosauridae-lajasvenator-adult-*",
+
+						"stegosauria-stegosaurus-adult-*","stegosauria-dacentrurus-adult-*","stegosauria-wuerhosaurus-adult-*","stegosauria-hesperosaurus-adult-*","stegosauria-tuojiangosaurus-adult-*","stegosauria-alcovasaurus-adult-*","stegosauria-miragaia-adult-*","stegosauria-isaberrysaura-adult-*","stegosauria-kentrosaurus-adult-*","stegosauria-huayangosaurus-adult-*","stegosauria-gigantspinosaurus-adult-*","stegosauria-chungkingosaurus-adult-*",
 
 
 						"mosasauridae-*",
