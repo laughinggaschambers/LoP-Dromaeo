@@ -25,6 +25,7 @@
     },
     "canClimb": true,
     "canClimbAnywhere": true,
+    "climbTouchDistance": 0,
     "hitBoxSizeByType": {
 			"*-utahraptor-adult-*": {"x": 1.5,"y": 2}, "*-utahraptor-baby-*": {"x": 0.5,"y": 0.5},
 			"*-dakotaraptor-adult-*": {"x": 1.5,"y": 1.8}, "*-dakotaraptor-baby-*": {"x": 0.5,"y": 0.5},
