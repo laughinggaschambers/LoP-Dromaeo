@@ -1030,7 +1030,7 @@
 							"*-microraptor-adult-*":3.25,
 							"*-rahonavis-adult-*":3.25,
 						},
-						"whenInEmotionState": "aggressiveondamage|aggressivearoundentities",
+						"whenInEmotionState": "aggressiveondamage",
 						"leapAtTargetByType":{
 							"*-baby-*":true,
 							"*-adult-*":false,
@@ -1096,7 +1096,7 @@
 							"*-microraptor-adult-*":1.0,
 							"*-rahonavis-adult-*":1.0,
 						},
-						"whenInEmotionState": "aggressiveondamage|aggressivearoundentities",
+						"whenInEmotionState": "aggressiveondamage",
 						"leapAtTargetByType":{
 							"*":true,
                         },
