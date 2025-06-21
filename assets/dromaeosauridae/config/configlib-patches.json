@@ -138,14 +138,14 @@
     },
     "boolean":{
       "dromaeosauridae:entities/land/dromaeosauridae.json": {
-        "/server/behaviors/0/enabledByType/*-utahraptor-adult-*": "ridable",
-        "/client/behaviors/0/enabledByType/*-utahraptor-adult-*": "ridable",
+        "/server/behaviors/3/enabledByType/*-utahraptor-adult-*": "ridable",
+        "/client/behaviors/3/enabledByType/*-utahraptor-adult-*": "ridable",
 
-        "/server/behaviors/0/enabledByType/*-dakotaraptor-adult-*": "ridable",
-        "/client/behaviors/0/enabledByType/*-dakotaraptor-adult-*": "ridable",
+        "/server/behaviors/3/enabledByType/*-dakotaraptor-adult-*": "ridable",
+        "/client/behaviors/3/enabledByType/*-dakotaraptor-adult-*": "ridable",
 
-        "/server/behaviors/0/enabledByType/*-achillobator-adult-*": "ridable",
-        "/client/behaviors/0/enabledByType/*-achillobator-adult-*": "ridable",
+        "/server/behaviors/3/enabledByType/*-achillobator-adult-*": "ridable",
+        "/client/behaviors/3/enabledByType/*-achillobator-adult-*": "ridable",
         }
     }
   },

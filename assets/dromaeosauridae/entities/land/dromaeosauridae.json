@@ -338,6 +338,9 @@
 			"*-rahonavis-adult-male": 0.22,"*-rahonavis-adult-female": 0.20,"*-rahonavis-baby-*": 0.20
 		},
         "behaviors": [
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
 			{"code": "rideable", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeightByType":
@@ -351,10 +354,6 @@
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
 			{"code": "ropetieable","minGeneration": 3},
-			{"code": "selectionboxes", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
-
         ],
         "animations": [
             {"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -377,10 +376,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 120,"maxTurnAnglePerSec": 360}},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
-			{"code": "selectionboxes", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": { "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-utahraptor-adult-*":true,"*-dakotaraptor-adult-*":true,"*-achillobator-adult-*":true,"*-baby-*": false, "*": false},"minGeneration": 10 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeightByType":
 				{
